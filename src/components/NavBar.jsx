@@ -43,7 +43,9 @@ const NavBar = () => {
         <Link to="home"><h1 className='myLogo'>Summaiya</h1></Link>
       </div>
 
-      <ul className="hidden lg:flex">
+      <ul
+        style={{ textShadow: "0 0 5px #040404, 0 0 15px #4a53cf, 0 0 20px #040404, 0 0 40px #040404, 0 0 60px #3bb6c4, 0 0 10px #4a53cf, 0 0 98px #040404" }}
+        className="hidden lg:flex">
         {links.map(({ id, link }) => (
           <li
             key={id}

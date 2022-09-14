@@ -10,11 +10,13 @@
   html {
     font-family: "Raleway", sans-serif;
   }
-  .ptop{
-    padding-top:80px;
+
+  .ptop {
+    padding-top: 80px;
   }
-  .mbottom{
-    margin-bottom : -80px
+
+  .mbottom {
+    margin-bottom: -80px
   }
 }
 
@@ -80,8 +82,7 @@ body {
   .contact,
   .portfolio,
   .experience,
-  .skills
-  .home {
+  .skills .home {
     text-align: center;
     height: 100%;
   }
@@ -125,11 +126,12 @@ body {
 
 }
 
-.myLogo > a{
+.myLogo>a {
   text-decoration: none;
   color: #ffffff;
 }
-.myLogo{
+
+.myLogo {
   /* text-decoration: none; */
   font-size: calc(5px + 5vh);
   line-height: calc(5px + 5vh);
@@ -137,54 +139,58 @@ body {
     0 0 20px #f562ff, 0 0 30px #890092, 0 0 80px #890092, 0 0 80px #890092;
   color: #fccaff; */
   text-shadow: 0 0 5px #f9f9f9, 0 0 15px #f9f9f9, 0 0 20px #f9f9f9, 0 0 40px #f9f9f9, 0 0 60px #4dc6cd, 0 0 10px #f9f9f9, 0 0 98px #52bec0;
-    color: #63c5d4;
-  font-family: "Sacramento", cursive;
+  color: #63c5d4;
+  font-family: "Sacramento", Georgia, 'Times New Roman', Times, serif;
   text-align: center;
   animation: blink 12s infinite;
   -webkit-animation: blink 12s infinite;
 }
-@-webkit-keyframes blink {
-20%,
-24%,
-55% {
-  color: rgb(87, 188, 213);
-  text-shadow: none;
-}
 
-0%,
-19%,
-21%,
-23%,
-25%,
-54%,
-56%,
-100% {
-text-shadow: 0 0 5px #f9f9f9, 0 0 15px #f9f9f9, 0 0 20px #f9f9f9, 0 0 40px #f9f9f9, 0 0 60px #3bb6c4, 0 0 10px #f9f9f9, 0 0 98px #3ed0d8;
-  color: #525cd1;
-}
+@-webkit-keyframes blink {
+
+  20%,
+  24%,
+  55% {
+    color: rgb(87, 188, 213);
+    text-shadow: none;
+  }
+
+  0%,
+  19%,
+  21%,
+  23%,
+  25%,
+  54%,
+  56%,
+  100% {
+    text-shadow: 0 0 5px #f9f9f9, 0 0 15px #4a53cf, 0 0 20px #4a53cf, 0 0 40px #4a53cf, 0 0 60px #3bb6c4, 0 0 10px #4a53cf, 0 0 98px #3ed0d8;
+    color: #4a53cf;
+    
+  }
 }
 
 @keyframes blink {
-20%,
-24%,
-55% {
-  color: #111;
-  text-shadow: none;
+
+  20%,
+  24%,
+  55% {
+    color: #111;
+    text-shadow: none;
+  }
+
+  0%,
+  19%,
+  21%,
+  23%,
+  25%,
+  54%,
+  56%,
+  100% {
+    text-shadow: 0 0 5px #f9f9f9, 0 0 15px #4a53cf, 0 0 20px #4a53cf, 0 0 40px #4a53cf, 0 0 60px #3bb6c4, 0 0 10px #4a53cf, 0 0 98px #3ed0d8;
+    color: #f9f9f9;
+  }
 }
 
-0%,
-19%,
-21%,
-23%,
-25%,
-54%,
-56%,
-100% {
-text-shadow: 0 0 5px #6bc7db, 0 0 15px #6bc7db, 0 0 20px #6bc7db, 0 0 40px #6bc7db, 0 0 60px #ff0000, 0 0 10px #6bc7db, 0 0 98px #ff0000;
-  color: #f9f9f9;
-}
-}
-
-.mobile-menu{
+.mobile-menu {
   display: none;
 }

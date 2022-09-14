@@ -64,7 +64,7 @@ const projects = () => {
     <div
 
       name="portfolio"
-      style={{ height: "auto" }}
+      style={{ height: "auto",padding:'1rem' }}
 
       className="bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen portfolio"
     >
@@ -74,7 +74,9 @@ const projects = () => {
         <div
           // style={{ border: "2px solid green" }}
           className="pb-8">
-          <p className="text-4xl font-bold inline border-b-4 border-gray-500">
+          <p 
+          style={{textShadow:   "0 0 5px #040404, 0 0 15px #4a53cf, 0 0 20px #040404, 0 0 40px #040404, 0 0 60px #3bb6c4, 0 0 10px #4a53cf, 0 0 98px #040404"}}
+          className="text-4xl font-bold inline border-b-4 border-gray-500">
             Projects
           </p>
           <p className="py-6">Check out some of my work right here</p>
