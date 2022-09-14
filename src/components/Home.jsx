@@ -57,7 +57,7 @@ const Home = () => {
           <img
             src={mypic}
             alt="profile"
-            className="p-20 w-100 h-90 rounded-full "
+            className="mt-10 w-100 h-70 rounded-3xl ring-2 ring-gray-300 dark:ring-gray-500"
           />
         </div>
 
