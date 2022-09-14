@@ -2,15 +2,17 @@ import React from "react";
 import HeroImage from "../assets/heroImage.jpg";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { Link } from "react-scroll";
+import "../app.css"
 
 const Home = () => {
   return (
     <div
+      style={{ height: 'auto' }}
       name="home"
       className="h-screen w-full bg-gradient-to-b from-black via-black to-gray-800 home "
     >
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
-      <div className="small-screen hidden">
+        <div className="small-screen hidden">
           <img
             src={HeroImage}
 
@@ -18,14 +20,19 @@ const Home = () => {
             className="rounded-2xl mx-auto w-2/3 md:w-full"
           />
         </div>
-        <div className="flex flex-col justify-center h-full">
-          <h2 className="text-4xl sm:text-7xl font-bold text-white">
+        <div style={{ marginTop: "80px" }} className="flex flex-col justify-center h-full">
+          <h2 className="text-4xl sm:text-7xl font-bold text-white" id="fullstack">
             I'm a Full Stack Web Developer
           </h2>
-          <p className="text-gray-500 py-4 max-w-md">
-            I have 2 years of experience building websites and desgining software.
-            I love to work on web application using technologies like
-            React, Tailwind, Next JS and GraphQL.
+          <p className="text-white sm:text-1.8xl py-8 max-w-md "  >
+            Self-motivated and a curious learner and
+            creative mind having strong in problem-
+            solving and proficiency in HTML, CSS,
+            Javascript & ReactJS. Seeking a position in a
+            growth-oriented company where I can utilize
+            my understanding of coding and software
+            development to efficiently fulfill the
+            requirements of clients and customers.
           </p>
 
           <div className="portfolio-btn">
@@ -42,14 +49,14 @@ const Home = () => {
             </Link>
           </div>
         </div>
-        <div className="big-screen">
+        <div className="big-screen" style={{ marginLeft: "100px", marginTop: "80px" }} >
           <img
             src={HeroImage}
             alt="profile"
-            className="rounded-2xl mx-auto w-2/3 md:w-full"
+            className="p-20 w-100 h-90 rounded-full "
           />
         </div>
-        
+
       </div>
     </div>
   );

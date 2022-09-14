@@ -1,7 +1,7 @@
 import React from "react";
 
 //function for form reset
-function handleSubmit(e){
+function handleSubmit(e) {
   setTimeout(() => {
     e.target.reset();
   }, 3000);
@@ -10,6 +10,7 @@ function handleSubmit(e){
 const Contact = () => {
   return (
     <div
+    style={{ height: "auto" }}
       name="contact"
       className="contact w-full h-screen bg-gradient-to-b from-black to-gray-800 p-4 text-white mbottom ptop"
     >
@@ -20,13 +21,13 @@ const Contact = () => {
           </p>
           <p className="py-6">Submit the form below to get in touch with me</p>
         </div>
-        
+
         <div className=" flex justify-center items-center">
           <form
             onSubmit={handleSubmit}
             name="contact"
             method="POST"
-            action="https://getform.io/f/"
+            action="https://getform.io/f/210baddc-ab52-4ca7-9830-c232e63051b0"
             className=" flex flex-col w-full md:w-1/2"
           >
             <input

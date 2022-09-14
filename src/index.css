@@ -127,7 +127,7 @@ body {
 
 .myLogo > a{
   text-decoration: none;
-  color: #A80850;
+  color: #ffffff;
 }
 .myLogo{
   /* text-decoration: none; */
@@ -136,8 +136,8 @@ body {
   /* text-shadow: 0 0 5px #f562ff, 0 0 15px #f562ff, 0 0 25px #f562ff,
     0 0 20px #f562ff, 0 0 30px #890092, 0 0 80px #890092, 0 0 80px #890092;
   color: #fccaff; */
-  text-shadow: 0 0 5px #A80850, 0 0 15px #A80850, 0 0 20px #A80850, 0 0 40px #A80850, 0 0 60px #ff0000, 0 0 10px #A80850, 0 0 98px #ff0000;
-    color: #9c63d4;
+  text-shadow: 0 0 5px #f9f9f9, 0 0 15px #f9f9f9, 0 0 20px #f9f9f9, 0 0 40px #f9f9f9, 0 0 60px #4dc6cd, 0 0 10px #f9f9f9, 0 0 98px #52bec0;
+    color: #63c5d4;
   font-family: "Sacramento", cursive;
   text-align: center;
   animation: blink 12s infinite;
@@ -147,7 +147,7 @@ body {
 20%,
 24%,
 55% {
-  color: rgb(255, 12, 154);
+  color: rgb(87, 188, 213);
   text-shadow: none;
 }
 
@@ -159,7 +159,7 @@ body {
 54%,
 56%,
 100% {
-text-shadow: 0 0 5px #A80850, 0 0 15px #A80850, 0 0 20px #A80850, 0 0 40px #A80850, 0 0 60px #ff0000, 0 0 10px #A80850, 0 0 98px #ff0000;
+text-shadow: 0 0 5px #f9f9f9, 0 0 15px #f9f9f9, 0 0 20px #f9f9f9, 0 0 40px #f9f9f9, 0 0 60px #3bb6c4, 0 0 10px #f9f9f9, 0 0 98px #3ed0d8;
   color: #525cd1;
 }
 }
@@ -180,8 +180,8 @@ text-shadow: 0 0 5px #A80850, 0 0 15px #A80850, 0 0 20px #A80850, 0 0 40px #A808
 54%,
 56%,
 100% {
-text-shadow: 0 0 5px #e6aac5, 0 0 15px #e6aac5, 0 0 20px #e6aac5, 0 0 40px #e6aac5, 0 0 60px #ff0000, 0 0 10px #e6aac5, 0 0 98px #ff0000;
-  color: #A80850;
+text-shadow: 0 0 5px #6bc7db, 0 0 15px #6bc7db, 0 0 20px #6bc7db, 0 0 40px #6bc7db, 0 0 60px #ff0000, 0 0 10px #6bc7db, 0 0 98px #ff0000;
+  color: #f9f9f9;
 }
 }
 

@@ -4,10 +4,10 @@ import html from "../assets/html.png";
 import css from "../assets/css.png";
 import javascript from "../assets/javascript.png";
 import reactImage from "../assets/react.png";
-import nextjs from "../assets/nextjs.png";
-import graphql from "../assets/graphql.png";
+import postman from "../assets/postman.webp";
+import bootstrap from "../assets/bootstrap.png";
 import github from "../assets/github.png";
-import tailwind from "../assets/tailwind.png";
+import jest from "../assets/jest.png";
 import node from "../assets/node.png";
 import express from "../assets/express.png"
 import mongodb from "../assets/mongodb.png"
@@ -46,14 +46,14 @@ const TechStacks = () => {
     },
     {
       id: 6,
-      src: nextjs,
-      title: "Next JS",
+      src: postman,
+      title: "Postman",
       style: "shadow-white",
     },
     {
       id: 7,
-      src: graphql,
-      title: "GraphQL",
+      src: bootstrap,
+      title: "Bootstrap",
       style: "shadow-pink-400",
     },
     {
@@ -64,8 +64,8 @@ const TechStacks = () => {
     },
     {
       id: 9,
-      src: tailwind,
-      title: "Tailwind",
+      src: jest,
+      title: "Jest",
       style: "shadow-sky-400",
     },
     {
@@ -90,6 +90,7 @@ const TechStacks = () => {
 
   return (
     <div
+      style={{ height: "auto" }}
       name="techStacks"
       className=" ptop bg-gradient-to-b from-gray-800 to-black w-full h-screen experience  "
     >

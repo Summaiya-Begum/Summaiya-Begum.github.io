@@ -90,6 +90,7 @@ const Statistics = () => {
 
   return (
     <div
+    
       name="statistics"
       className="bg-gradient-to-b from-gray-800 to-black w-full h-screen experience mbottom ptop"
     >

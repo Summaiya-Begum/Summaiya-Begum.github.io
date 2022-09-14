@@ -54,6 +54,7 @@ const Skills = () => {
 
   return (
     <div
+    style={{ height: "auto" }}
       name="skills"
       className="bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen portfolio skills text-center lg:text-left ptop"
     >
