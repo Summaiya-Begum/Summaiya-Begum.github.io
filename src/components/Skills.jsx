@@ -12,26 +12,10 @@ const Skills = () => {
     },
     {
       id: 3,
-      heading: "JS",
+      heading: "JavaScript",
     },
     {
       id: 4,
-      heading: "DOM Manipulation",
-    },
-    {
-      id: 5,
-      heading: "JSON",
-    },
-    {
-      id: 6,
-      heading: "Node.js",
-    },
-    {
-      id: 7,
-      heading: "MongoDB",
-    },
-    {
-      id: 8,
       heading: "React",
     },
   ];
@@ -78,7 +62,7 @@ const Skills = () => {
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">
           <p
-            style={{ textShadow:  "0 0 5px #040404, 0 0 15px #4a53cf, 0 0 20px #040404, 0 0 40px #040404, 0 0 60px #3bb6c4, 0 0 10px #4a53cf, 0 0 98px #040404" }}
+            style={{ textShadow: "0 0 5px #040404, 0 0 15px #4a53cf, 0 0 20px #040404, 0 0 40px #040404, 0 0 60px #3bb6c4, 0 0 10px #4a53cf, 0 0 98px #040404" }}
 
             className="text-4xl font-bold inline border-b-4 border-gray-500 ">
             Skills
@@ -102,8 +86,9 @@ const Skills = () => {
                 fontWeight: "bold",
                 lineHeight: "2",
                 // textDecoration: "underline",
-                textDecorationColor: "#3ed0d8", 
-                textShadow:  "0 0 5px #040404, 0 0 15px #4a53cf, 0 0 20px #040404, 0 0 40px #040404, 0 0 60px #3bb6c4, 0 0 10px #4a53cf, 0 0 98px #040404"              }}>
+                textDecorationColor: "#3ed0d8",
+                textShadow: "0 0 5px #040404, 0 0 15px #4a53cf, 0 0 20px #040404, 0 0 40px #040404, 0 0 60px #3bb6c4, 0 0 10px #4a53cf, 0 0 98px #040404"
+              }}>
                 <li>{heading}</li>
               </div>
             ))}
@@ -120,7 +105,7 @@ const Skills = () => {
                 fontWeight: "bold",
                 // textDecoration: "underline",
                 textDecorationColor: "#3ed0d8",
-                textShadow:  "0 0 5px #040404, 0 0 15px #4a53cf, 0 0 20px #040404, 0 0 40px #040404, 0 0 60px #3bb6c4, 0 0 10px #4a53cf, 0 0 98px #040404"
+                textShadow: "0 0 5px #040404, 0 0 15px #4a53cf, 0 0 20px #040404, 0 0 40px #040404, 0 0 60px #3bb6c4, 0 0 10px #4a53cf, 0 0 98px #040404"
               }} key={id}>
                 <li>{heading}</li>
               </div>
