@@ -12,7 +12,7 @@ const SocialLinks = () => {
           LinkedIn <FaLinkedin size={30} />
         </>
       ),
-      href: "",
+      href: "https://www.linkedin.com/in/summaiya23/",
       style: "rounded-tr-md",
     },
     {
@@ -22,7 +22,7 @@ const SocialLinks = () => {
           GitHub <FaGithub size={30} />
         </>
       ),
-      href: "",
+      href: "https://github.com/Summaiya-Begum",
     },
     {
       id: 3,
@@ -31,7 +31,7 @@ const SocialLinks = () => {
           Email <HiOutlineMail size={30} />
         </>
       ),
-      href: "mailto:",
+      href: "",
     },
     {
       id: 4,
@@ -40,7 +40,7 @@ const SocialLinks = () => {
           Resume <BsFillPersonLinesFill size={30} />
         </>
       ),
-      href: "https://drive.google.com/file/d/1ggaPyV8k0sdcAs0yrleWtRdrFBQRsF8D/view?usp=sharing",
+      href: "https://drive.google.com/file/d/12qSmlmWRynf9BCIz_xIPpvd5kDRw-yxM/view?usp=sharing",
       download: true,
     },
     {
