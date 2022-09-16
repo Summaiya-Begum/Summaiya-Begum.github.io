@@ -29,7 +29,7 @@ const Home = () => {
           </h2>
           <p
             style={{ textShadow: "0 0 5px #040404, 0 0 15px #4a53cf, 0 0 20px #040404, 0 0 40px #040404, 0 0 60px #3bb6c4, 0 0 10px #4a53cf, 0 0 98px #040404" }}
-            className="text-white sm:text-1.8xl mx-20 py-8 max-w-md "  >
+            className="text-white sm:text-1.10xl mx-20 py-8 max-w-md "  >
             Self-motivated and a curious learner and
             creative mind having strong in problem-
             solving and proficiency in HTML, CSS,

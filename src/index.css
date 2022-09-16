@@ -132,6 +132,7 @@ body {
 }
 
 .myLogo {
+  cursor: pointer;
   /* text-decoration: none; */
   font-size: calc(5px + 5vh);
   line-height: calc(5px + 5vh);

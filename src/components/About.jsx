@@ -17,7 +17,7 @@ const About = () => {
         </div>
 
         <p className="text-xl mt-5">
-          I am a web developer, working in both, backend and frontend programming. Excited for improving my skills and learning new technologies. I'm open to learn and work with any web technology.
+          I am a web developer, working in both, frontend and backend programming. Excited for improving my skills and learning new technologies. I'm open to learn and work with any web technology.
         </p>
 
         <br />

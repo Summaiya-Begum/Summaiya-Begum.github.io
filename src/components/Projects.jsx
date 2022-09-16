@@ -104,16 +104,15 @@ const projects = () => {
 
               <AwesomeSlider style={{ height: "auto", overflow: "hidden" }}>
                 {
-                  src.map(el => (<div style={{ overflow: "hidden", borderRadius: "10px" }}>
+                  src.map(el => (<div style={{  borderRadius: "10px" }}>
                     <img style={{ height: "600" }} src={el} className="rounded-md duration-200 hover:scale-105" />
-
 
                   </div>))
                 }
 
               </AwesomeSlider>
 
-              <div style={{ marginTop: "70px", textAlign: "center" }}>
+              <div style={{ marginTop: "40px", textAlign: "center" }}>
                 <h1 style={{ fontSize: "20px", fontWeight: 800 }}>{title}</h1>
                 <p className="max-line">{description}</p>
               </div>
