@@ -4,19 +4,31 @@ const Skills = () => {
   const frontEndSkills = [
     {
       id: 1,
-      heading: "HTML 5",
-    },
-    {
-      id: 2,
       heading: "CSS 3",
     },
     {
+      id: 2,
+      heading: "HTML 5",
+    },
+    {
       id: 3,
-      heading: "JavaScript",
+      heading: "React",
     },
     {
       id: 4,
-      heading: "React",
+      heading: "Redux",
+    },
+    {
+      id: 5,
+      heading: "JavaScript",
+    },
+    {
+      id: 6,
+      heading: "Chakra-UI",
+    },
+    {
+      id: 7,
+      heading: "BootStrap",
     },
   ];
 
@@ -24,31 +36,32 @@ const Skills = () => {
 
     {
       id: 1,
-      heading: "Mongoosh",
-    },
-    {
-      id: 2,
       heading: "JEST",
     },
     {
-      id: 3,
-      heading: "DOM Manipulation",
-    },
-    {
-      id: 4,
+      id: 2,
       heading: "JSON",
     },
     {
-      id: 5,
+      id: 3,
       heading: "Node.js",
     },
     {
-      id: 6,
+      id: 4,
       heading: "MongoDB",
     },
     {
-      id: 7,
+      id: 5,
+
       heading: "Express",
+    },
+    {
+      id: 6,
+      heading: "Mongoosh",
+    },
+    {
+      id: 7,
+      heading: "DOM Manipulation",
     },
   ];
 

@@ -36,24 +36,32 @@ const projects = () => {
     {
       id: 1,
       src: [kfc1, kfc2, kfc3, kfc4],
+      title: "KFC-Clone",
+      description: "KFC (Kentucky Fried Chicken) is an American fast food restaurant chain headquartered in Louisville, Kentucky, that specializes in fried chicken. It is the world's second-largest restaurant chain (as measured by sales) after McDonald",
       link: 'https://remarkable-fudge-c07118.netlify.app/',
       repo: 'https://github.com/Summaiya-Begum/KFC-Clone'
     },
     {
       id: 2,
       src: [gusto1, gusto2, gusto3, gusto4, gusto5],
+      title: "Gusto-Clone",
+      description: "People are at the heart of every successful business. Gusto puts the tools you need to hire, pay, insure, and support your team in one platform.",
       link: 'https://gusto-ecommerce.vercel.app/',
       repo: 'https://github.com/Summaiya-Begum/gusto-clone/tree/main/gusto-ecommerce'
     },
     {
       id: 3,
       src: [boat1, boat2, boat3, boat4, boat5],
+      title: "Boat-Clone",
+      description: "Boats.com is an online advertising website based in Miami, Florida, United States. It also has operations in Fareham and Padova. The company has websites in nine markets and eight languages, listing over 350,000 boats in approximately 152 countries.",
       link: 'https://stellar-figolla-5fb4b8.netlify.app/',
       repo: 'https://github.com/Summaiya-Begum/boat-clone'
     },
     {
       id: 4,
       src: [monster1, monster2, monster3, monster4, monster5, monster6],
+      title: "Monster-India-Clone",
+      description: "Monster is a global online employment solution for people seeking jobs and the employers who need great people. We've been doing this for more than 20 years, and have expanded from our roots as a job board to a global provider of a full array of job seeking, career management, recruitment and talent management products and services.",
       link: 'https://monster-india-clone-seven.vercel.app/',
       repo: 'https://github.com/Summaiya-Begum/monster-india-clone'
     }
@@ -87,19 +95,32 @@ const projects = () => {
         <div
           //  style={{ border: "2px solid red" }} 
           className="grid sm:grid-cols-2 md:grid-cols-2 gap-8 px-12 sm:px-0">
-          {projects.map(({ id, src, link, repo }) => (
+          {projects.map(({ id, src, title, description, link, repo }) => (
             <div
-              //  style={{ border: "2px solid blue", height: "400" }} 
-              key={id} className="shadow-md shadow-gray-600 rounded-lg">
-              <AwesomeSlider style={{ height: "400" }}>
+              style={{ height: "400" }}
+              key={id} className="shadow-md shadow-blue-400 rounded-lg">
+
+
+
+              <AwesomeSlider style={{ height: "auto", overflow: "hidden" }}>
                 {
-                  src.map(el => (<div>
+                  src.map(el => (<div style={{ overflow: "hidden", borderRadius: "10px" }}>
                     <img style={{ height: "600" }} src={el} className="rounded-md duration-200 hover:scale-105" />
+
+
                   </div>))
                 }
 
               </AwesomeSlider>
+
+              <div style={{ marginTop: "70px", textAlign: "center" }}>
+                <h1 style={{ fontSize: "20px", fontWeight: 800 }}>{title}</h1>
+                <p className="max-line">{description}</p>
+              </div>
+
               <div className="flex items-center justify-center" >
+
+
                 <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105" onClick={() => window.open(link, '_blank')}>
                   Demo
                 </button>

@@ -163,8 +163,8 @@ body {
   54%,
   56%,
   100% {
-    text-shadow: 0 0 5px #f9f9f9, 0 0 15px #4a53cf, 0 0 20px #4a53cf, 0 0 40px #4a53cf, 0 0 60px #3bb6c4, 0 0 10px #4a53cf, 0 0 98px #3ed0d8;
-    color: #4a53cf;
+    text-shadow: 0 0 5px #f9f9f9, 0 0 15px #60a5fa, 0 0 20px #4a53cf, 0 0 40px #4a53cf, 0 0 60px #3bb6c4, 0 0 10px #4a53cf, 0 0 98px #3ed0d8;
+    color: #60a5fa;
     
   }
 }
@@ -186,7 +186,7 @@ body {
   54%,
   56%,
   100% {
-    text-shadow: 0 0 5px #f9f9f9, 0 0 15px #4a53cf, 0 0 20px #4a53cf, 0 0 40px #4a53cf, 0 0 60px #3bb6c4, 0 0 10px #4a53cf, 0 0 98px #3ed0d8;
+    text-shadow: 0 0 5px #f9f9f9, 0 0 15px #60a5fa, 0 0 20px #60a5fa, 0 0 40px #60a5fa, 0 0 60px #3bb6c4, 0 0 10px #60a5fa, 0 0 98px #3ed0d8;
     color: #f9f9f9;
   }
 }
