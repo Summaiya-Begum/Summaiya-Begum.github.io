@@ -64,18 +64,50 @@ const Skills = () => {
       heading: "DOM Manipulation",
     },
   ];
+  const DsaSkills = [
+
+    {
+      id: 1,
+      heading: " Arrays",
+    },
+    {
+      id: 2,
+      heading: "Strings",
+    },
+    {
+      id: 3,
+      heading: "Stacks",
+    },
+    {
+      id: 4,
+      heading: "Queues",
+    },
+    {
+      id: 5,
+
+      heading: "Objects",
+    },
+    {
+      id: 6,
+      heading: "Recursion",
+    },
+    {
+      id: 7,
+      heading: "Linked-List",
+    },
+  ];
 
 
   return (
     <div
-      style={{ height: "auto", padding: "2rem" }}
+      style={{ height: "auto" }}
       name="skills"
       className="bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen portfolio skills text-center lg:text-left ptop"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">
           <p
-            style={{ textShadow: "0 0 5px #040404, 0 0 15px #4a53cf, 0 0 20px #040404, 0 0 40px #040404, 0 0 60px #3bb6c4, 0 0 10px #4a53cf, 0 0 98px #040404" }}
+            style={{ paddingTop: "40px", textShadow: "0 0 5px #040404, 0 0 15px #4a53cf, 0 0 20px #040404, 0 0 40px #040404, 0 0 60px #3bb6c4, 0 0 10px #4a53cf, 0 0 98px #040404" }}
 
             className="text-4xl font-bold inline border-b-4 border-gray-500 ">
             Skills
@@ -106,6 +138,8 @@ const Skills = () => {
               </div>
             ))}
           </div>
+
+          {/* BACKEND*/}
           <div>
             <h3
               style={{ lineHeight: "3", }}
@@ -113,6 +147,27 @@ const Skills = () => {
               {"Back End Development"}
             </h3>
             {BackEndSkills.map(({ id, heading }) => (
+              <div style={{
+                lineHeight: "2",
+                fontWeight: "bold",
+                // textDecoration: "underline",
+                textDecorationColor: "#3ed0d8",
+                textShadow: "0 0 5px #040404, 0 0 15px #4a53cf, 0 0 20px #040404, 0 0 40px #040404, 0 0 60px #3bb6c4, 0 0 10px #4a53cf, 0 0 98px #040404"
+              }} key={id}>
+                <li>{heading}</li>
+              </div>
+            ))}
+          </div>
+
+          {/* DSA */}
+
+          <div>
+            <h3
+              style={{ lineHeight: "3", }}
+              className="text-xl font-bold inline border-b-4 border-gray-500">
+              {"Data Structure"}
+            </h3>
+            {DsaSkills.map(({ id, heading }) => (
               <div style={{
                 lineHeight: "2",
                 fontWeight: "bold",

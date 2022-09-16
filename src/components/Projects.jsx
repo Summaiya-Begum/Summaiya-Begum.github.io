@@ -70,17 +70,17 @@ const projects = () => {
 
   return (
     <div
-
+      style={{ height: "auto" }}
       name="projects"
-      style={{ height: "auto", padding: '1rem' }}
-
       className="bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen portfolio"
     >
       <div
-        // style={{ border: "2px solid pink", height: "auto" }} 
+        // style={{ border: "2px solid pink", height: "auto" }}
         className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div
-          // style={{ border: "2px solid green" }}
+          style={{
+            paddingTop: "80px"
+          }}
           className="pb-8">
           <p
             style={{ textShadow: "0 0 5px #040404, 0 0 15px #4a53cf, 0 0 20px #040404, 0 0 40px #040404, 0 0 60px #3bb6c4, 0 0 10px #4a53cf, 0 0 98px #040404" }}
@@ -104,7 +104,7 @@ const projects = () => {
 
               <AwesomeSlider style={{ height: "auto", overflow: "hidden" }}>
                 {
-                  src.map(el => (<div style={{  borderRadius: "10px" }}>
+                  src.map(el => (<div style={{ borderRadius: "10px" }}>
                     <img style={{ height: "600" }} src={el} className="rounded-md duration-200 hover:scale-105" />
 
                   </div>))

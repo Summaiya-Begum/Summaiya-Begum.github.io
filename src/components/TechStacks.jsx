@@ -90,8 +90,9 @@ const TechStacks = () => {
 
   return (
     <div
-      style={{ height: "auto" , textShadow: "0 0 5px #040404, 0 0 15px #4a53cf, 0 0 20px #040404, 0 0 40px #040404, 0 0 60px #3bb6c4, 0 0 10px #4a53cf, 0 0 98px #040404",
-    }}
+      style={{
+        height: "auto", textShadow: "0 0 5px #040404, 0 0 15px #4a53cf, 0 0 20px #040404, 0 0 40px #040404, 0 0 60px #3bb6c4, 0 0 10px #4a53cf, 0 0 98px #040404",
+      }}
       name="techStacks"
       className=" ptop bg-gradient-to-b from-gray-800 to-black w-full h-screen experience  "
     >
