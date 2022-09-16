@@ -133,12 +133,8 @@ body {
 
 .myLogo {
   cursor: pointer;
-  /* text-decoration: none; */
   font-size: calc(5px + 5vh);
   line-height: calc(5px + 5vh);
-  /* text-shadow: 0 0 5px #f562ff, 0 0 15px #f562ff, 0 0 25px #f562ff,
-    0 0 20px #f562ff, 0 0 30px #890092, 0 0 80px #890092, 0 0 80px #890092;
-  color: #fccaff; */
   text-shadow: 0 0 5px #f9f9f9, 0 0 15px #f9f9f9, 0 0 20px #f9f9f9, 0 0 40px #f9f9f9, 0 0 60px #4dc6cd, 0 0 10px #f9f9f9, 0 0 98px #52bec0;
   color: #63c5d4;
   font-family: "Sacramento", Georgia, 'Times New Roman', Times, serif;
@@ -166,7 +162,7 @@ body {
   100% {
     text-shadow: 0 0 5px #f9f9f9, 0 0 15px #60a5fa, 0 0 20px #4a53cf, 0 0 40px #4a53cf, 0 0 60px #3bb6c4, 0 0 10px #4a53cf, 0 0 98px #3ed0d8;
     color: #60a5fa;
-    
+
   }
 }
 

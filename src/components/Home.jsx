@@ -39,9 +39,9 @@ const Home = () => {
             development to efficiently fulfill the
             requirements of clients and customers.
           </p>
-          <a href={resume} download>
-            <div className="portfolio-btn">
 
+          <div className="portfolio-btn">
+            <a href={resume} download>
               <div
                 to="/"
                 smooth
@@ -53,9 +53,9 @@ const Home = () => {
                   <MdOutlineKeyboardArrowRight size={25} className="ml-1" />
                 </span>
               </div>
+            </a>
+          </div>
 
-            </div>
-          </a>
         </div>
         <div className="big-screen" style={{ marginLeft: "100px", marginTop: "80px" }} >
           <img
