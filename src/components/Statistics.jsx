@@ -1,5 +1,24 @@
 import React from "react";
+// import GitHubCalendar from 'react-github-calendar';
 const Statistics = () => {
+
+
+  // const selectLastHalfYear = contributions => {
+  //   const currentYear = new Date().getFullYear();
+  //   const currentMonth = new Date().getMonth();
+  //   const shownMonths = 6;
+
+  //   return contributions.filter(day => {
+  //     const date = new Date(day.date);
+  //     const monthOfDay = date.getMonth();
+
+  //     return (
+  //       date.getFullYear() === currentYear &&
+  //       monthOfDay > currentMonth - shownMonths &&
+  //       monthOfDay <= currentMonth
+  //     );
+  //   });
+  // };
 
   return (
     <div
@@ -17,7 +36,15 @@ const Statistics = () => {
           </p>
           <p className="py-6">These are some of statistics graphs to determine my contribution and knowledge in this digital world.</p>
         </div>
-
+        {/* git Calender */}
+        {/* <div className="flex justify-center">
+          <GitHubCalendar
+            username="Summaiya-Begum"
+            transformData={selectLastHalfYear}
+            hideTotalCount
+            hideColorLegend
+          />
+        </div> */}
         <div>
           <p align="center">
             <a href="https://github.com/Summaiya-Begum/github-readme-stats"><img alt="Summaiya-Begum's Github Stats" src="https://github-readme-stats.vercel.app/api?username=Summaiya-Begum&show_icons=true&count_private=true&theme=react&hide_border=true&bg_color=0D1117" /></a>
