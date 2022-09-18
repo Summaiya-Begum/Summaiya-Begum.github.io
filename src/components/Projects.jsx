@@ -70,16 +70,17 @@ const projects = () => {
 
   return (
     <div
-      style={{ height: "auto" }}
+      id="bgdivimg"
+      style={{ height: "auto", marginTop: "2rem",boxShadow: "rgba(0, 0, 0, 0.15) 0px 2px 8px",paddingBottom:"2rem" }}
       name="projects"
-      className="bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen portfolio"
+      className="ptop bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen portfolio"
     >
       <div
         // style={{ border: "2px solid pink", height: "auto" }}
         className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div
           style={{
-            paddingTop: "80px"
+            paddingTop: "30px"
           }}
           className="pb-8">
           <p
@@ -112,7 +113,7 @@ const projects = () => {
 
               </AwesomeSlider>
 
-              <div style={{ marginTop: "40px", textAlign: "center" }}>
+              <div style={{ marginTop: "40px", textAlign: "center", padding: "1rem" }}>
                 <h1 style={{ fontSize: "20px", fontWeight: 800 }}>{title}</h1>
                 <p className="max-line">{description}</p>
               </div>

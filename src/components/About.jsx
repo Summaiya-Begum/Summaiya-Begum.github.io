@@ -3,14 +3,19 @@ import React from "react";
 const About = () => {
   return (
     <div
+    id="bgdivimg"
       name="about"
+      style={{
+        boxShadow: "rgba(0, 0, 0, 0.15) 0px 2px 8px" ,
+        marginTop: "2rem",
+      }}
       // bg-gradient-to-b from-gray-800 to-black w-full h-screen
       className="w-full h-screen bg-gradient-to-b from-gray-800 to-black text-white about ptop "
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">
           <p
-            style={{ textShadow:  "0 0 5px #040404, 0 0 15px #4a53cf, 0 0 20px #040404, 0 0 40px #040404, 0 0 60px #3bb6c4, 0 0 10px #4a53cf, 0 0 98px #040404" }}
+            style={{ textShadow: "0 0 5px #040404, 0 0 15px #4a53cf, 0 0 20px #040404, 0 0 40px #040404, 0 0 60px #3bb6c4, 0 0 10px #4a53cf, 0 0 98px #040404" }}
             className="text-4xl font-bold inline border-b-4 border-gray-500">
             About
           </p>

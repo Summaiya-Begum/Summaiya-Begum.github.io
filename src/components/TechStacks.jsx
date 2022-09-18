@@ -90,7 +90,10 @@ const TechStacks = () => {
 
   return (
     <div
+      id="bgdivimg"
       style={{
+        marginTop: "2rem",
+        boxShadow: "rgba(0, 0, 0, 0.15) 0px 2px 8px",
         height: "auto", textShadow: "0 0 5px #040404, 0 0 15px #4a53cf, 0 0 20px #040404, 0 0 40px #040404, 0 0 60px #3bb6c4, 0 0 10px #4a53cf, 0 0 98px #040404",
       }}
       name="techStacks"

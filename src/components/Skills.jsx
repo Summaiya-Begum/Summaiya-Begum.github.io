@@ -1,34 +1,41 @@
 import React from "react";
+import { DiCss3, DiHtml5, DiMongodb, DiJavascript } from "react-icons/di";
+import { FaReact, FaNodeJs, FaBimobject } from "react-icons/fa"
+import { SiRedux, SiJavascript, SiChakraui, SiBootstrap, SiJest, SiMongodb, SiExpress } from "react-icons/si";
+import { VscJson, VscSymbolArray, VscSymbolString } from "react-icons/vsc";
+import { BiCoinStack, BiAddToQueue } from "react-icons/bi"
+import { TbLayersLinked } from "react-icons/tb";
+import { CgListTree } from "react-icons/cg"
 const Skills = () => {
 
   const frontEndSkills = [
     {
       id: 1,
-      heading: "CSS 3",
+      heading: (<><DiCss3 size={20} /> CSS3 </>),
     },
     {
       id: 2,
-      heading: "HTML 5",
+      heading: (<> <DiHtml5 size={20} /> HTML 5</>),
     },
     {
       id: 3,
-      heading: "React",
+      heading: (<><FaReact sise={20} /> React </>),
     },
     {
       id: 4,
-      heading: "Redux",
+      heading: (<><SiRedux size={20} /> Redux </>),
     },
     {
       id: 5,
-      heading: "JavaScript",
+      heading: (<><SiJavascript size={20} /> Javascript </>),
     },
     {
       id: 6,
-      heading: "Chakra-UI",
+      heading: (<><SiChakraui size={20} /> Chakra-UI </>),
     },
     {
       id: 7,
-      heading: "BootStrap",
+      heading: (<><SiBootstrap size={20} /> BootStrap </>),
     },
   ];
 
@@ -36,75 +43,76 @@ const Skills = () => {
 
     {
       id: 1,
-      heading: "JEST",
+      heading: (<><SiJest size={20} /> JEST </>),
     },
     {
       id: 2,
-      heading: "JSON",
+      heading: (<><VscJson size={20} /> JSON </>),
     },
     {
       id: 3,
-      heading: "Node.js",
+      heading: (<><FaNodeJs size={20} /> NodeJS </>),
     },
     {
       id: 4,
-      heading: "MongoDB",
+      heading: (<><SiMongodb size={30} /> MongoDB </>),
     },
     {
       id: 5,
 
-      heading: "Express",
+      heading: (<><SiExpress size={20} /> Express </>),
     },
     {
       id: 6,
-      heading: "Mongoosh",
+      heading: (<><DiMongodb size={20} /> Mongosh </>),
     },
     {
       id: 7,
-      heading: "DOM Manipulation",
+      heading: (<><DiJavascript size={20} /> DOM Manipulation</>),
     },
   ];
   const DsaSkills = [
 
     {
       id: 1,
-      heading: " Arrays",
+      heading: (<><VscSymbolArray size={20} /> Arrays </>),
     },
     {
       id: 2,
-      heading: "Strings",
+      heading: (<><VscSymbolString size={20} /> Strings</>),
     },
     {
       id: 3,
-      heading: "Stacks",
+      heading: (<><BiCoinStack size={20} /> Stacks</>),
     },
     {
       id: 4,
-      heading: "Queues",
+      heading: (<><BiAddToQueue size={20} /> Queues</>),
     },
     {
       id: 5,
 
-      heading: "Objects",
+      heading: (<><FaBimobject size={20} /> Objects</>),
     },
     {
       id: 6,
-      heading: "Recursion",
+      heading: (<><CgListTree size={20} /> Recursion</>),
     },
     {
       id: 7,
-      heading: "Linked-List",
+      heading: (<>Linked-List <TbLayersLinked size={20} /></>),
     },
   ];
 
 
   return (
     <div
-      style={{ height: "auto" }}
+    id="bgdivimg"
+      style={{  height: "auto", boxShadow: "rgba(0, 0, 0, 0.15) 0px 2px 8px" , paddingBottom: "8rem",marginTop:"2rem", }}
       name="skills"
-      className="bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen portfolio skills text-center lg:text-left ptop"
+      className="bg-gradient-to-b from-black to-gray-800 w-full h-auto p-20 text-white md:h-screen portfolio skills text-center lg:text-left ptop"
     >
-      <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
+      <div  className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">
           <p
             style={{ paddingTop: "40px", textShadow: "0 0 5px #040404, 0 0 15px #4a53cf, 0 0 20px #040404, 0 0 40px #040404, 0 0 60px #3bb6c4, 0 0 10px #4a53cf, 0 0 98px #040404" }}
@@ -120,7 +128,7 @@ const Skills = () => {
           // style={{ display: "flex", justifyContent: "flex-start", gap: "300px", }}
 
           className="grid sm:grid-cols-1 md:grid-cols-2 gap-8 px-12 lg:grid-cols-2 gap-0 px-0  xl:grid-cols-4 gap-2 px-10 sm:px-0">
-          <div>
+          <div style={{ textAlign: "center" }}>
             <h3
               style={{ lineHeight: "3", }}
               className="text-xl font-bold inline border-b-4 border-gray-500">
@@ -134,13 +142,13 @@ const Skills = () => {
                 textDecorationColor: "#3ed0d8",
                 textShadow: "0 0 5px #040404, 0 0 15px #4a53cf, 0 0 20px #040404, 0 0 40px #040404, 0 0 60px #3bb6c4, 0 0 10px #4a53cf, 0 0 98px #040404"
               }}>
-                <li>{heading}</li>
+                <li style={{ display: 'flex', justifyContent: 'center', alignItems: "center", gap: "10px" }}>{heading}</li>
               </div>
             ))}
           </div>
 
           {/* BACKEND*/}
-          <div>
+          <div style={{ textAlign: "center" }}>
             <h3
               style={{ lineHeight: "3", }}
               className="text-xl font-bold inline border-b-4 border-gray-500">
@@ -154,14 +162,14 @@ const Skills = () => {
                 textDecorationColor: "#3ed0d8",
                 textShadow: "0 0 5px #040404, 0 0 15px #4a53cf, 0 0 20px #040404, 0 0 40px #040404, 0 0 60px #3bb6c4, 0 0 10px #4a53cf, 0 0 98px #040404"
               }} key={id}>
-                <li>{heading}</li>
+                <li style={{ display: 'flex', justifyContent: 'center', alignItems: "center", gap: "10px" }}>{heading}</li>
               </div>
             ))}
           </div>
 
           {/* DSA */}
 
-          <div>
+          <div style={{ textAlign: "center" }}>
             <h3
               style={{ lineHeight: "3", }}
               className="text-xl font-bold inline border-b-4 border-gray-500">
@@ -175,7 +183,7 @@ const Skills = () => {
                 textDecorationColor: "#3ed0d8",
                 textShadow: "0 0 5px #040404, 0 0 15px #4a53cf, 0 0 20px #040404, 0 0 40px #040404, 0 0 60px #3bb6c4, 0 0 10px #4a53cf, 0 0 98px #040404"
               }} key={id}>
-                <li>{heading}</li>
+                <li style={{ display: 'flex', justifyContent: 'center', alignItems: "center", gap: "10px" }}>{heading}</li>
               </div>
             ))}
           </div>

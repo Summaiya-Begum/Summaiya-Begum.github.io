@@ -10,7 +10,10 @@ function handleSubmit(e) {
 const Contact = () => {
   return (
     <div
-      style={{ height: "auto" }}
+    id="bgdivimg"
+      style={{ height: "auto" ,boxShadow: "rgba(0, 0, 0, 0.15) 0px 2px 8px" ,marginTop: "-2.2rem",
+      // marginTop:"100px"
+    }}
       name="contact"
       className="contact w-full h-screen bg-gradient-to-b from-black to-gray-800 p-4 text-white mbottom ptop"
     >

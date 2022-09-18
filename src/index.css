@@ -13,24 +13,30 @@
 
   .ptop {
     padding-top: 80px;
+
   }
 
   .mbottom {
-    margin-bottom: -80px
+    margin-bottom: 80px
   }
 }
 
-#root {
-  background: linear-gradient(black 25%, rgb(31, 41, 54) 58%, black 15%);
+/* #root {
+  background: linear-gradient(rgb(123, 109, 240) 25%, rgb(183, 23, 219) 58%, rgb(237, 22, 215) 15%);
   min-height: 100vh;
-}
+} */
 
 body {
-  background: rgb(31, 41, 55);
+  /* background-image: url("/src/assets/bg.gif"); */
+  background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/ff2ca5d0-5633-4ef7-b22f-934c6516d5f0/d6iuhnh-22a84a73-8669-48aa-aaac-47e886276b7c.jpg/v1/fill/w_1192,h_670,q_70,strp/dark_blue_wallpaper_by_malkowitch_d6iuhnh-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTA4MCIsInBhdGgiOiJcL2ZcL2ZmMmNhNWQwLTU2MzMtNGVmNy1iMjJmLTkzNGM2NTE2ZDVmMFwvZDZpdWhuaC0yMmE4NGE3My04NjY5LTQ4YWEtYWFhYy00N2U4ODYyNzZiN2MuanBnIiwid2lkdGgiOiI8PTE5MjAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.r7d9UoV3ABeaa3ENC5IvLFgFt3C7uYKDddohdEMYPQ0");
+
 }
 
 .nav {
   z-index: 10;
+  background-image: url("/src/assets/bg.gif");
+  /* background: rgb(9, 9, 121);
+  background: linear-gradient(344deg, rgb(25, 44, 164) 27%, rgba(53, 161, 199, 1) 58%, rgba(9, 9, 121, 1) 80%); */
 }
 
 .link-underline {
@@ -126,17 +132,19 @@ body {
 
 }
 
+
+/* my css */
 .myLogo>a {
   text-decoration: none;
-  color: #ffffff;
+  color: #1e42b9;
 }
 
 .myLogo {
   cursor: pointer;
   font-size: calc(5px + 5vh);
   line-height: calc(5px + 5vh);
-  text-shadow: 0 0 5px #f9f9f9, 0 0 15px #f9f9f9, 0 0 20px #f9f9f9, 0 0 40px #f9f9f9, 0 0 60px #4dc6cd, 0 0 10px #f9f9f9, 0 0 98px #52bec0;
-  color: #63c5d4;
+  text-shadow: 0 0 5px #3e6bde, 0 0 15px #f9f9f9, 0 0 20px #3e6bde, 0 0 40px #f9f9f9, 0 0 60px #4dc6cd, 0 0 10px #f9f9f9, 0 0 98px #3e6bde;
+  color: #3e6bde;
   font-family: "Sacramento", Georgia, 'Times New Roman', Times, serif;
   text-align: center;
   animation: blink 12s infinite;
@@ -148,7 +156,7 @@ body {
   20%,
   24%,
   55% {
-    color: rgb(87, 188, 213);
+    color: rgb(49, 71, 234);
     text-shadow: none;
   }
 
@@ -160,8 +168,8 @@ body {
   54%,
   56%,
   100% {
-    text-shadow: 0 0 5px #f9f9f9, 0 0 15px #60a5fa, 0 0 20px #4a53cf, 0 0 40px #4a53cf, 0 0 60px #3bb6c4, 0 0 10px #4a53cf, 0 0 98px #3ed0d8;
-    color: #60a5fa;
+    text-shadow: 0 0 5px #3b64c4, 0 0 15px #3b64c4, 0 0 20px #4a53cf, 0 0 40px #4a53cf, 0 0 60px #3b64c4, 0 0 10px #4a53cf, 0 0 98px #3b64c4;
+    color: #3b64c4;
 
   }
 }
