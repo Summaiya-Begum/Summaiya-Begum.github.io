@@ -92,19 +92,23 @@ const TechStacks = () => {
     <div
       id="bgdivimg"
       style={{
-        marginTop: "2rem",
+        marginTop: "1rem",
         boxShadow: "rgba(0, 0, 0, 0.15) 0px 2px 8px",
-        height: "auto", textShadow: "0 0 5px #040404, 0 0 15px #4a53cf, 0 0 20px #040404, 0 0 40px #040404, 0 0 60px #3bb6c4, 0 0 10px #4a53cf, 0 0 98px #040404",
+        height: "auto",
+        backgroundColor: "black",
+
       }}
       name="techStacks"
-      className=" ptop bg-gradient-to-b from-gray-800 to-black w-full h-screen experience  "
+      className=" ptop bg-gradient-to-b from-black-800 to-black w-full h-screen experience  "
     >
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
         <div>
-          <p className="text-4xl font-bold border-b-4 border-gray-500 p-2 inline">
+          <p className="text-4xl font-bold border-b-4 border-white-500 p-2 inline">
             TechStacks
           </p>
-          <p className="py-6">These are the technologies I've worked with and used them in my projects.</p>
+          <p
+            style={{ color: "aqua" }}
+            className="py-6">These are the technologies I've worked with and used them in my projects.</p>
         </div>
 
         <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0">

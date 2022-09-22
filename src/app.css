@@ -8,7 +8,7 @@
     background: linear-gradient(90deg, #000, #fff, #000);
     background-repeat: no-repeat;
     background-size: 80%;
-    animation: animate 10s linear infinite;
+    animation: animate 15s linear infinite;
     -webkit-background-clip: text;
     -webkit-text-fill-color: rgba(255, 255, 255, 0);
 }
@@ -35,6 +35,6 @@
 
 
 #bgdivimg {
-    background: rgb(18, 18, 74);
-    background: linear-gradient(342deg, rgba(18, 18, 74, 1) 27%, rgba(4, 107, 143, 1) 52%, rgba(23, 23, 69, 1) 73%);
+    background-color: #000;
+    /* color: aqua; */
 }

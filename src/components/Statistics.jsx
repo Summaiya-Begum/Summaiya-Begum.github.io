@@ -23,19 +23,19 @@ const Statistics = () => {
   return (
     <div
       id="bgdivimg"
-      style={{ height: "auto", marginTop: "2rem", paddingBottom: "2rem" ,boxShadow: "rgba(0, 0, 0, 0.15) 0px 2px 8px" ,}}
+      style={{ height: "auto", marginTop: "1rem", paddingBottom: "2rem" ,boxShadow: "rgba(0, 0, 0, 0.15) 0px 2px 8px" ,}}
       name="statistics"
-      className="bg-gradient-to-b from-gray-800 to-black w-full h-screen experience mbottom ptop"
+      className="bg-gradient-to-b from-black-800 to-black w-full h-screen experience mbottom ptop"
     >
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
         <div >
           <p
-            style={{ textShadow: "0 0 5px #040404, 0 0 15px #4a53cf, 0 0 20px #040404, 0 0 40px #040404, 0 0 60px #3bb6c4, 0 0 10px #4a53cf, 0 0 98px #040404" }}
+            style={{ color:"white" }}
 
-            className="text-4xl font-bold border-b-4 border-gray-500 p-2 inline">
+            className="text-4xl font-bold border-b-4 border-white-500 p-2 inline">
             Statistics
           </p>
-          <p className="py-6">These are some of statistics graphs to determine my contribution and knowledge in this digital world.</p>
+          <p style={{color:"aqua"}} className="py-6">These are some of statistics graphs to determine my contribution and knowledge in this digital world.</p>
         </div>
         <div
           className="grid lg:grid-cols-2 sm:grid-cols-1 md:grid-cols-2 gap-4 px-12 py-5 sm:px-0"

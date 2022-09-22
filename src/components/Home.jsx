@@ -9,10 +9,11 @@ import resume from "../assets/Summaiya_Begum_Resume.pdf"
 const Home = () => {
   return (
     <div
+
       id="bgdivimg"
       style={{ paddingTop: "5rem", height: 'auto', boxShadow: "rgba(0, 0, 0, 0.15) 0px 2px 8px", padding: ["3rem,8rem"], }}
       name="home"
-      className="p-10 h-screen w-full bg-gradient-to-b from-black via-black to-gray-800 home "
+      className="p-10 h-screen w-full bg-gradient-to-b from-black via-black to-black-800 home "
     >
       <div style={{ marginTop: "60px" }}
         className="max-w-screen-lg mx-auto flex flex-col  justify-center gap-y-5 h-full w-full px-5 md:flex-row">
@@ -41,7 +42,12 @@ const Home = () => {
             I'm a Full Stack Web Developer
           </h2>
           <p
-            style={{ textShadow: "0 0 5px #040404, 0 0 15px #4a53cf, 0 0 20px #040404, 0 0 40px #040404, 0 0 60px #3bb6c4, 0 0 10px #4a53cf, 0 0 98px #040404" }}
+            style={{ 
+              color:"aqua",
+              fontFamily:"sans-serif",
+              fontWeight:"bold"
+              
+            }}
             // className="text-white sm:text-1.10xl mx-20 py-8 max-w-md "
             className="text-white  max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full"
           >
@@ -61,7 +67,8 @@ const Home = () => {
               to="/"
               smooth
               duration={500}
-              className="group text-white  w-fit px-6 py-3 my-2 flex items-center rounded-md m-auto  bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer"
+              className="group text-white  w-fit px-6 py-3 my-2 flex items-center rounded-md m-auto  cursor-pointer"
+              style={{color:"black",backgroundColor:"aqua",fontWeight:"bold",fontFamily:"sans-serif"}}
             >
               <a href={resume} download>
                 Resume

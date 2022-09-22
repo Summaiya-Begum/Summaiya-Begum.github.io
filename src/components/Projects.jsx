@@ -1,4 +1,5 @@
 import React from "react";
+import "../app.css"
 import AwesomeSlider from 'react-awesome-slider';
 import 'react-awesome-slider/dist/styles.css';
 //gusto
@@ -49,7 +50,7 @@ const projects = () => {
       description: "People are at the heart of every successful business. Gusto puts the tools you need to hire, pay, insure, and support your team in one platform.",
       link: 'https://gusto-ecommerce.vercel.app/',
       repo: 'https://github.com/Summaiya-Begum/gusto-clone/tree/main/gusto-ecommerce'
-     , tech: "REACT | JAVASCRIPT | HTML | CSS | CHAKRA-UI"
+      , tech: "REACT | JAVASCRIPT | HTML | CSS | CHAKRA-UI"
     },
     {
       id: 3,
@@ -75,9 +76,9 @@ const projects = () => {
   return (
     <div
       id="bgdivimg"
-      style={{ height: "auto", marginTop: "2rem",boxShadow: "rgba(0, 0, 0, 0.15) 0px 2px 8px",paddingBottom:"2rem" }}
+      style={{ height: "auto", marginTop: "1rem", boxShadow: "rgba(0, 0, 0, 0.15) 0px 2px 8px", paddingBottom: "1rem" }}
       name="projects"
-      className="ptop bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen portfolio"
+      className="ptop bg-gradient-to-b from-black to-black-800 w-full text-white md:h-screen portfolio"
     >
       <div
         // style={{ border: "2px solid pink", height: "auto" }}
@@ -88,11 +89,11 @@ const projects = () => {
           }}
           className="pb-8">
           <p
-            style={{ textShadow: "0 0 5px #040404, 0 0 15px #4a53cf, 0 0 20px #040404, 0 0 40px #040404, 0 0 60px #3bb6c4, 0 0 10px #4a53cf, 0 0 98px #040404" }}
-            className="text-4xl font-bold inline border-b-4 border-gray-500">
+            style={{ color: "white" }}
+            className="text-4xl font-bold inline border-b-4 border-white-500">
             Projects
           </p>
-          <p className="py-6">Check out some of my work right here</p>
+          <p className="py-6 text-aqua">Check out some of my work right here</p>
         </div>
 
 
@@ -100,7 +101,7 @@ const projects = () => {
         <div
           //  style={{ border: "2px solid red" }} 
           className="grid sm:grid-cols-2 md:grid-cols-2 gap-8 px-12 sm:px-0">
-          {projects.map(({ id, src, title, description, link, repo,tech }) => (
+          {projects.map(({ id, src, title, description, link, repo, tech }) => (
             <div
               style={{ height: "400" }}
               key={id} className="shadow-md shadow-blue-400 rounded-lg">
@@ -118,19 +119,24 @@ const projects = () => {
               </AwesomeSlider>
 
               <div style={{ marginTop: "40px", textAlign: "center", padding: "1rem" }}>
-                <h1 style={{ fontSize: "20px", fontWeight: 800 }}>{title}</h1>
-                <p className="max-line">{description}</p>
+                <h1 style={{ fontSize: "20px", fontWeight: 800, color: "white" }}>{title}</h1>
+                <p className="max-line text-aqua ">{description}</p>
 
-                <p><b>TechStack:  { tech} </b> </p>
+                <p style={{ color: "white" }}><b>TechStack:  {tech} </b> </p>
               </div>
 
               <div className="flex items-center justify-center" >
 
 
-                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105" onClick={() => window.open(link, '_blank')}>
+                <button
+                  style={{ borderRadius: "2rem", fontFamily: "monospace", fontSize: "20px", fontWeight: "bold" }}
+                  className="w-1/2 px-6 py-3 m-4 duration-200 text-black bg-white hover:scale-105 hover:text-black hover:bg-aqua" onClick={() => window.open(link, '_blank')}>
                   Demo
                 </button>
-                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105" onClick={() => window.open(repo, '_blank')}>
+                <button
+
+                  style={{ borderRadius: "2rem", fontFamily: "monospace", fontSize: "20px", fontWeight: "bold" }}
+                  className=" w-1/2 px-6 py-3 m-4 duration-200 text-black bg-white hover:scale-105 hover:text-black hover:bg-aqua" onClick={() => window.open(repo, '_blank')}>
                   GitHub
                 </button>
               </div>
@@ -144,9 +150,3 @@ const projects = () => {
 };
 
 export default projects;
-
-{/* <img
-                  src={src}
-                  alt="projects"
-                  className="rounded-md duration-200 hover:scale-105"
-                /> */}

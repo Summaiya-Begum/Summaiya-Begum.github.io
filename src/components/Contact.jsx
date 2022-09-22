@@ -14,80 +14,21 @@ function handleSubmit(e) {
 }
 
 const Contact = () => {
-  const links = [
-    {
-      id: 1,
-      child: (
-        <>
-          <FaLinkedin size={30} />LinkedIn
-        </>
-      ),
-      href: "https://www.linkedin.com/in/summaiya23/",
-      style: "rounded-tr-md",
-      target: "_blank",
-
-    },
-    {
-      id: 2,
-      child: (
-        <>
-          <FaGithub size={30} /> GitHub
-        </>
-      ),
-      href: "https://github.com/Summaiya-Begum",
-      target: "_blank",
-
-    },
-
-    {
-      id: 3,
-      child: (
-        <>
-          <BsFillPersonLinesFill size={30} />Resume
-        </>
-      ),
-      href: "/",
-      target: ""
-
-    },
-    {
-      id: 4,
-      child: (
-        <>
-          <IoIosCall size={30} />Contact : +91-9508435628
-        </>
-      ),
-      href: "/",
-      style: "rounded-br-md",
-
-      target: "_self",
-    },
-    {
-      id: 5,
-      child: (
-        <>
-          <HiOutlineMail size={30} />Email : gzlfathima786@gmail.com
-        </>
-      ),
-      href: "/",
-      target: "_self",
-    },
-  ];
   return (
     <div
       id="bgdivimg"
       style={{
-        height: "auto", boxShadow: "rgba(0, 0, 0, 0.15) 0px 2px 8px", marginTop: "-2.2rem",
+        height: "auto", boxShadow: "rgba(0, 0, 0, 0.15) 0px 2px 8px", marginTop: "-4rem",
 
       }}
       name="contact"
-      className="contact w-full h-screen bg-gradient-to-b from-black to-gray-800 p-4 text-white mbottom ptop"
+      className="contact w-full h-screen bg-gradient-to-b from-black to-black-800 p-4 text-white mbottom ptop"
     >
       <div className="flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full">
         <div style={{ paddingTop: "50px" }} className="pb-8">
           <p
-            style={{ textShadow: "0 0 5px #040404, 0 0 15px #4a53cf, 0 0 20px #040404, 0 0 40px #040404, 0 0 60px #3bb6c4, 0 0 10px #4a53cf, 0 0 98px #040404" }}
-            className="text-4xl font-bold inline border-b-4 border-gray-500">
+            style={{ color:"white" }}
+            className="text-4xl font-bold inline border-b-4 border-white-500">
             Contact
           </p>
           <p className="py-6">Submit the form below to get in touch with me</p>
@@ -107,7 +48,7 @@ const Contact = () => {
                   "flex justify-between items-center w-50 h-14 px-4"}>
                 <a
                   href="https://www.linkedin.com/in/summaiya23/"
-                  className="flex justify-arround gap-8 items-start w-full text-white" target="_blank"> <FaLinkedin size={30} /> <b>LinkedIn</b>
+                  className="flex justify-arround gap-8 items-start w-full text-white" target="_blank"> <FaLinkedin size={30} color={"aqua"}/> <b>LinkedIn</b>
                 </a>
               </li>
               <li
@@ -115,7 +56,7 @@ const Contact = () => {
                   "flex justify-between items-center w-50 h-14 px-4"}>
                 <a
                   href="https://github.com/Summaiya-Begum"
-                  className="flex justify-arround gap-8 items-start w-full text-white" target="_blank"> <FaGithub size={30} /><b>GitHub</b>
+                  className="flex justify-arround gap-8 items-start w-full text-white" target="_blank"> <FaGithub size={30} color={"aqua"} /><b>GitHub</b>
 
                 </a>
               </li>
@@ -128,7 +69,7 @@ const Contact = () => {
                   download
 
                   className="flex justify-arround gap-8 items-start w-full text-white">
-                  <BsFillPersonLinesFill size={30} /><b>Resume</b>
+                  <BsFillPersonLinesFill size={30} color={"aqua"}/><b>Resume</b>
                 </a>
               </li>
               <li
@@ -137,7 +78,7 @@ const Contact = () => {
                 <a
 
                   className="flex justify-arround gap-8 items-start w-full text-white">
-                  <IoIosCall size={30} /> <b>Contact : +91-9508435628</b> 
+                  <IoIosCall size={30} color={"aqua"} /> <b>Contact : +91-9508435628</b> 
                 </a>
               </li>
               <li
@@ -145,7 +86,7 @@ const Contact = () => {
                   "flex justify-between items-center w-50 h-14 px-4"}>
                 <a
 
-                  className="flex justify-arround gap-8 items-start w-full text-white"> <HiOutlineMail size={30} />  <b>Email : gzlfathima786@gmail.com</b> 
+                  className="flex justify-arround gap-8 items-start w-full text-white"> <HiOutlineMail size={30} color={"aqua"}/>  <b>Email : gzlfathima786@gmail.com</b> 
                 </a>
               </li>
 
@@ -183,7 +124,12 @@ const Contact = () => {
                 className="p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
               ></textarea>
 
-              <button type="submit" className="text-white bg-gradient-to-b from-cyan-500 to-blue-500 px-6 py-3 my-8 mx-auto flex items-center rounded-md hover:scale-110 duration-300">
+              <button type="submit"
+              style={{color:"white", backgroundColor:"aqua",fontWeight:"bold"}}
+              className="text-white 
+              bg-gradient-to-b 
+              from-cyan-500 to-aqua-500
+               px-6 py-3 my-8 mx-auto flex items-center rounded-md hover:scale-110 duration-300">
                 Send Message
               </button>
             </form>

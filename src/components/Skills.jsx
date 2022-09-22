@@ -11,31 +11,31 @@ const Skills = () => {
   const frontEndSkills = [
     {
       id: 1,
-      heading: (<><DiCss3 size={20} /> CSS3 </>),
+      heading: (<><DiCss3 size={20} color={"white"} /> CSS3 </>),
     },
     {
       id: 2,
-      heading: (<> <DiHtml5 size={20} /> HTML 5</>),
+      heading: (<> <DiHtml5 size={20} color={"white"} /> HTML 5</>),
     },
     {
       id: 3,
-      heading: (<><FaReact sise={20} /> React </>),
+      heading: (<><FaReact sise={20} color={"white"} /> React </>),
     },
     {
       id: 4,
-      heading: (<><SiRedux size={20} /> Redux </>),
+      heading: (<><SiRedux size={20} color={"white"} /> Redux </>),
     },
     {
       id: 5,
-      heading: (<><SiJavascript size={20} /> Javascript </>),
+      heading: (<><SiJavascript size={20} color={"white"} /> Javascript </>),
     },
     {
       id: 6,
-      heading: (<><SiChakraui size={20} /> Chakra-UI </>),
+      heading: (<><SiChakraui size={20} color={"white"} /> Chakra-UI </>),
     },
     {
       id: 7,
-      heading: (<><SiBootstrap size={20} /> BootStrap </>),
+      heading: (<><SiBootstrap size={20} color={"white"} /> BootStrap </>),
     },
   ];
 
@@ -43,64 +43,64 @@ const Skills = () => {
 
     {
       id: 1,
-      heading: (<><SiJest size={20} /> JEST </>),
+      heading: (<><SiJest size={20} color={"white"} /> JEST </>),
     },
     {
       id: 2,
-      heading: (<><VscJson size={20} /> JSON </>),
+      heading: (<><VscJson size={20} color={"white"} /> JSON </>),
     },
     {
       id: 3,
-      heading: (<><FaNodeJs size={20} /> NodeJS </>),
+      heading: (<><FaNodeJs size={20} color={"white"} /> NodeJS </>),
     },
     {
       id: 4,
-      heading: (<><SiMongodb size={30} /> MongoDB </>),
+      heading: (<><SiMongodb size={30} color={"white"} /> MongoDB </>),
     },
     {
       id: 5,
 
-      heading: (<><SiExpress size={20} /> Express </>),
+      heading: (<><SiExpress size={20} color={"white"} /> Express </>),
     },
     {
       id: 6,
-      heading: (<><DiMongodb size={20} /> Mongosh </>),
+      heading: (<><DiMongodb size={20} color={"white"} /> Mongosh </>),
     },
     {
       id: 7,
-      heading: (<><DiJavascript size={20} /> DOM Manipulation</>),
+      heading: (<><DiJavascript size={20} color={"white"} /> DOM Manipulation</>),
     },
   ];
   const DsaSkills = [
 
     {
       id: 1,
-      heading: (<><VscSymbolArray size={20} /> Arrays </>),
+      heading: (<><VscSymbolArray size={20} color={"white"} /> Arrays </>),
     },
     {
       id: 2,
-      heading: (<><VscSymbolString size={20} /> Strings</>),
+      heading: (<><VscSymbolString size={20} color={"white"} /> Strings</>),
     },
     {
       id: 3,
-      heading: (<><BiCoinStack size={20} /> Stacks</>),
+      heading: (<><BiCoinStack size={20} color={"white"} /> Stacks</>),
     },
     {
       id: 4,
-      heading: (<><BiAddToQueue size={20} /> Queues</>),
+      heading: (<><BiAddToQueue size={20} color={"white"} /> Queues</>),
     },
     {
       id: 5,
 
-      heading: (<><FaBimobject size={20} /> Objects</>),
+      heading: (<><FaBimobject size={20} color={"white"} /> Objects</>),
     },
     {
       id: 6,
-      heading: (<><CgListTree size={20} /> Recursion</>),
+      heading: (<><CgListTree size={20} color={"white"} /> Recursion</>),
     },
     {
       id: 7,
-      heading: (<> <TbLayersLinked size={20} />Linked-List</>),
+      heading: (<> <TbLayersLinked size={20}color={"white"}  />Linked-List</>),
     },
   ];
 
@@ -108,19 +108,19 @@ const Skills = () => {
   return (
     <div
       id="bgdivimg"
-      style={{ height: "auto", boxShadow: "rgba(0, 0, 0, 0.15) 0px 2px 8px", paddingBottom: "8rem", marginTop: "2rem", }}
+      style={{ height: "auto", boxShadow: "rgba(0, 0, 0, 0.15) 0px 2px 8px", paddingBottom: "8rem", marginTop: "1rem", }}
       name="skills"
-      className="bg-gradient-to-b from-black to-gray-800 w-full h-auto p-20 text-white md:h-screen portfolio skills text-center lg:text-left ptop"
+      className="bg-gradient-to-b from-black to-black-800 w-full h-auto p-20 text-white md:h-screen portfolio skills text-center lg:text-left ptop"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">
           <p
-            style={{ paddingTop: "40px", textShadow: "0 0 5px #040404, 0 0 15px #4a53cf, 0 0 20px #040404, 0 0 40px #040404, 0 0 60px #3bb6c4, 0 0 10px #4a53cf, 0 0 98px #040404" }}
+            style={{ paddingTop: "40px",color:"white" }}
 
-            className="text-4xl font-bold inline border-b-4 border-gray-500 ">
+            className="text-4xl font-bold inline border-b-4 border-white ">
             Skills
           </p>
-          <p className="py-6">
+          <p className="py-6 text-aqua">
             Check out some of my skills in different domain.
           </p>
         </div>
@@ -130,8 +130,8 @@ const Skills = () => {
           className="grid sm:grid-cols-1 md:grid-cols-2 gap-8 px-12 lg:grid-cols-2 gap-0 px-0  xl:grid-cols-4 gap-2 px-10 sm:px-0">
           <div style={{ textAlign: "center" }}>
             <h3
-              style={{ lineHeight: "3", }}
-              className="text-xl font-bold inline border-b-4 border-gray-500">
+              style={{ lineHeight: "3",color:"white" }}
+              className="text-xl font-bold inline border-b-4 border-white-500">
               {"Front End Development"}
             </h3>
             {frontEndSkills.map(({ id, heading }) => (
@@ -140,18 +140,17 @@ const Skills = () => {
                 lineHeight: "2",
                 // textDecoration: "underline",
                 textDecorationColor: "#3ed0d8",
-                textShadow: "0 0 5px #040404, 0 0 15px #4a53cf, 0 0 20px #040404, 0 0 40px #040404, 0 0 60px #3bb6c4, 0 0 10px #4a53cf, 0 0 98px #040404"
               }}>
-                <li style={{ display: 'flex', justifyContent: 'center', alignItems: "center", gap: "10px" }}>{heading}</li>
+                <li style={{ display: 'flex', justifyContent: 'center', alignItems: "center", gap: "10px" }} className="text-aqua">{heading}</li>
               </div>
             ))}
           </div>
 
           {/* BACKEND*/}
-          <div style={{ textAlign: "center" }}>
+          <div style={{ textAlign: "center", }}>
             <h3
-              style={{ lineHeight: "3", }}
-              className="text-xl font-bold inline border-b-4 border-gray-500">
+              style={{ lineHeight: "3",color:"white" }}
+              className="text-xl font-bold inline border-b-4 border-white-500">
               {"Back End Development"}
             </h3>
             {BackEndSkills.map(({ id, heading }) => (
@@ -160,7 +159,6 @@ const Skills = () => {
                 fontWeight: "bold",
                 // textDecoration: "underline",
                 textDecorationColor: "#3ed0d8",
-                textShadow: "0 0 5px #040404, 0 0 15px #4a53cf, 0 0 20px #040404, 0 0 40px #040404, 0 0 60px #3bb6c4, 0 0 10px #4a53cf, 0 0 98px #040404"
               }} key={id}>
                 <li style={{ display: 'flex', justifyContent: 'center', alignItems: "center", gap: "10px" }}>{heading}</li>
               </div>
@@ -171,8 +169,8 @@ const Skills = () => {
 
           <div style={{ textAlign: "center" }}>
             <h3
-              style={{ lineHeight: "3", }}
-              className="text-xl font-bold inline border-b-4 border-gray-500">
+              style={{ lineHeight: "3", color:"white"}}
+              className="text-xl font-bold inline border-b-4 border-white-500">
               {"Data Structure"}
             </h3>
             {DsaSkills.map(({ id, heading }) => (
@@ -181,7 +179,7 @@ const Skills = () => {
                 fontWeight: "bold",
                 // textDecoration: "underline",
                 textDecorationColor: "#3ed0d8",
-                textShadow: "0 0 5px #040404, 0 0 15px #4a53cf, 0 0 20px #040404, 0 0 40px #040404, 0 0 60px #3bb6c4, 0 0 10px #4a53cf, 0 0 98px #040404"
+          
               }} key={id}>
                 <li style={{ display: 'flex', justifyContent: 'center', alignItems: "center", gap: "10px" }}>{heading}</li>
               </div>
