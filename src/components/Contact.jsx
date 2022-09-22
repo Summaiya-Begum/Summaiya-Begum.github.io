@@ -27,7 +27,7 @@ const Contact = () => {
       <div className="flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full">
         <div style={{ paddingTop: "50px" }} className="pb-8">
           <p
-            style={{ color:"white" }}
+            style={{ color: "white" }}
             className="text-4xl font-bold inline border-b-4 border-white-500">
             Contact
           </p>
@@ -48,7 +48,7 @@ const Contact = () => {
                   "flex justify-between items-center w-50 h-14 px-4"}>
                 <a
                   href="https://www.linkedin.com/in/summaiya23/"
-                  className="flex justify-arround gap-8 items-start w-full text-white" target="_blank"> <FaLinkedin size={30} color={"aqua"}/> <b>LinkedIn</b>
+                  className="flex justify-arround gap-8 items-start w-full text-white" target="_blank"> <FaLinkedin size={30} color={"aqua"} /> <b>LinkedIn</b>
                 </a>
               </li>
               <li
@@ -69,7 +69,7 @@ const Contact = () => {
                   download
 
                   className="flex justify-arround gap-8 items-start w-full text-white">
-                  <BsFillPersonLinesFill size={30} color={"aqua"}/><b>Resume</b>
+                  <BsFillPersonLinesFill size={30} color={"aqua"} /><b>Resume</b>
                 </a>
               </li>
               <li
@@ -78,7 +78,7 @@ const Contact = () => {
                 <a
 
                   className="flex justify-arround gap-8 items-start w-full text-white">
-                  <IoIosCall size={30} color={"aqua"} /> <b>Contact : +91-9508435628</b> 
+                  <IoIosCall size={30} color={"aqua"} /> <b>Contact : +91-9508435628</b>
                 </a>
               </li>
               <li
@@ -86,7 +86,7 @@ const Contact = () => {
                   "flex justify-between items-center w-50 h-14 px-4"}>
                 <a
 
-                  className="flex justify-arround gap-8 items-start w-full text-white"> <HiOutlineMail size={30} color={"aqua"}/>  <b>Email : gzlfathima786@gmail.com</b> 
+                  className="flex justify-arround gap-8 items-start w-full text-white"> <HiOutlineMail size={30} color={"aqua"} />  <b>Email : gzlfathima786@gmail.com</b>
                 </a>
               </li>
 
@@ -125,11 +125,9 @@ const Contact = () => {
               ></textarea>
 
               <button type="submit"
-              style={{color:"white", backgroundColor:"aqua",fontWeight:"bold"}}
-              className="text-white 
-              bg-gradient-to-b 
-              from-cyan-500 to-aqua-500
-               px-6 py-3 my-8 mx-auto flex items-center rounded-md hover:scale-110 duration-300">
+                style={{ fontWeight: "bold" }}
+                className="
+               px-6 py-3 my-8 mx-auto flex items-center rounded-md text-black bg-aqua hover:scale-105 hover:text-black hover:bg-white duration-300">
                 Send Message
               </button>
             </form>

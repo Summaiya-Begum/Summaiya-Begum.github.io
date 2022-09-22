@@ -100,7 +100,7 @@ const Skills = () => {
     },
     {
       id: 7,
-      heading: (<> <TbLayersLinked size={20}color={"white"}  />Linked-List</>),
+      heading: (<> <TbLayersLinked size={20} color={"white"} />Linked-List</>),
     },
   ];
 
@@ -115,7 +115,7 @@ const Skills = () => {
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">
           <p
-            style={{ paddingTop: "40px",color:"white" }}
+            style={{ paddingTop: "40px", color: "white" }}
 
             className="text-4xl font-bold inline border-b-4 border-white ">
             Skills
@@ -130,7 +130,7 @@ const Skills = () => {
           className="grid sm:grid-cols-1 md:grid-cols-2 gap-8 px-12 lg:grid-cols-2 gap-0 px-0  xl:grid-cols-4 gap-2 px-10 sm:px-0">
           <div style={{ textAlign: "center" }}>
             <h3
-              style={{ lineHeight: "3",color:"white" }}
+              style={{ lineHeight: "3", color: "white" }}
               className="text-xl font-bold inline border-b-4 border-white-500">
               {"Front End Development"}
             </h3>
@@ -149,7 +149,7 @@ const Skills = () => {
           {/* BACKEND*/}
           <div style={{ textAlign: "center", }}>
             <h3
-              style={{ lineHeight: "3",color:"white" }}
+              style={{ lineHeight: "3", color: "white" }}
               className="text-xl font-bold inline border-b-4 border-white-500">
               {"Back End Development"}
             </h3>
@@ -160,7 +160,8 @@ const Skills = () => {
                 // textDecoration: "underline",
                 textDecorationColor: "#3ed0d8",
               }} key={id}>
-                <li style={{ display: 'flex', justifyContent: 'center', alignItems: "center", gap: "10px" }}>{heading}</li>
+                <li style={{ display: 'flex', justifyContent: 'center', alignItems: "center", gap: "10px" }}
+                  className="text-aqua">{heading}</li>
               </div>
             ))}
           </div>
@@ -169,7 +170,7 @@ const Skills = () => {
 
           <div style={{ textAlign: "center" }}>
             <h3
-              style={{ lineHeight: "3", color:"white"}}
+              style={{ lineHeight: "3", color: "white" }}
               className="text-xl font-bold inline border-b-4 border-white-500">
               {"Data Structure"}
             </h3>
@@ -179,9 +180,10 @@ const Skills = () => {
                 fontWeight: "bold",
                 // textDecoration: "underline",
                 textDecorationColor: "#3ed0d8",
-          
+
               }} key={id}>
-                <li style={{ display: 'flex', justifyContent: 'center', alignItems: "center", gap: "10px" }}>{heading}</li>
+                <li style={{ display: 'flex', justifyContent: 'center', alignItems: "center", gap: "10px" }}
+                  className="text-aqua">{heading}</li>
               </div>
             ))}
           </div>

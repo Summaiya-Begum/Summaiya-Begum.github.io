@@ -5,7 +5,7 @@ function Footer() {
     <div
       style={{
         height: "auto",
-        marginTop: "-2.2rem",
+        marginTop: "-4rem",
         // border: "1px solid green"
       }}
       class="text-center p-6 bg-black footer ptop">
