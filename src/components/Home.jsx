@@ -3,19 +3,19 @@ import mypic from "../assets/mypic.png";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 // import { Link } from "react-scroll";
 import "../app.css"
-import resume from "../assets/resume.pdf"
+import resume from "../assets/Summaiya_Begum_Resume.pdf"
 
 
 const Home = () => {
   return (
     <div
       id="bgdivimg"
-      style={{ paddingTop:"5rem", height: 'auto', boxShadow: "rgba(0, 0, 0, 0.15) 0px 2px 8px",padding: ["3rem,8rem"], }}
+      style={{ paddingTop: "5rem", height: 'auto', boxShadow: "rgba(0, 0, 0, 0.15) 0px 2px 8px", padding: ["3rem,8rem"], }}
       name="home"
       className="p-10 h-screen w-full bg-gradient-to-b from-black via-black to-gray-800 home "
     >
-      <div style={{ marginTop: "60px" }} 
-      className="max-w-screen-lg mx-auto flex flex-col  justify-center gap-y-5 h-full w-full px-5 md:flex-row">
+      <div style={{ marginTop: "60px" }}
+        className="max-w-screen-lg mx-auto flex flex-col  justify-center gap-y-5 h-full w-full px-5 md:flex-row">
         <div style={{ height: 'auto', margin: "auto" }} className="small-screen hidden mx-10 mt-20 " >
           <img
             src={mypic}
@@ -34,7 +34,7 @@ const Home = () => {
             className="rounded-full w-auto h-auto ring-7 ring-gray-300 dark:ring-gray-500"
           />
         </div>
-        <div style={{  margin: "auto" }} className="flex flex-col justify-center h-full text-center ">
+        <div style={{ margin: "auto" }} className="flex flex-col justify-center h-full text-center ">
           <h2
 
             className="text-4xl sm:text-7xl text-center m-auto font-bold text-white" id="fullstack">

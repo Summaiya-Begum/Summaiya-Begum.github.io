@@ -100,19 +100,19 @@ const Skills = () => {
     },
     {
       id: 7,
-      heading: (<>Linked-List <TbLayersLinked size={20} /></>),
+      heading: (<> <TbLayersLinked size={20} />Linked-List</>),
     },
   ];
 
 
   return (
     <div
-    id="bgdivimg"
-      style={{  height: "auto", boxShadow: "rgba(0, 0, 0, 0.15) 0px 2px 8px" , paddingBottom: "8rem",marginTop:"2rem", }}
+      id="bgdivimg"
+      style={{ height: "auto", boxShadow: "rgba(0, 0, 0, 0.15) 0px 2px 8px", paddingBottom: "8rem", marginTop: "2rem", }}
       name="skills"
       className="bg-gradient-to-b from-black to-gray-800 w-full h-auto p-20 text-white md:h-screen portfolio skills text-center lg:text-left ptop"
     >
-      <div  className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
+      <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">
           <p
             style={{ paddingTop: "40px", textShadow: "0 0 5px #040404, 0 0 15px #4a53cf, 0 0 20px #040404, 0 0 40px #040404, 0 0 60px #3bb6c4, 0 0 10px #4a53cf, 0 0 98px #040404" }}

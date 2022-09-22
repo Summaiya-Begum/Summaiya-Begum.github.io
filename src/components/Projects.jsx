@@ -39,7 +39,8 @@ const projects = () => {
       title: "KFC-Clone",
       description: "KFC (Kentucky Fried Chicken) is an American fast food restaurant chain headquartered in Louisville, Kentucky, that specializes in fried chicken. It is the world's second-largest restaurant chain (as measured by sales) after McDonald",
       link: 'https://remarkable-fudge-c07118.netlify.app/',
-      repo: 'https://github.com/Summaiya-Begum/KFC-Clone'
+      repo: 'https://github.com/Summaiya-Begum/KFC-Clone',
+      tech: "JAVASCRIPT | HTML | CSS | BOOTSTRAP"
     },
     {
       id: 2,
@@ -48,6 +49,7 @@ const projects = () => {
       description: "People are at the heart of every successful business. Gusto puts the tools you need to hire, pay, insure, and support your team in one platform.",
       link: 'https://gusto-ecommerce.vercel.app/',
       repo: 'https://github.com/Summaiya-Begum/gusto-clone/tree/main/gusto-ecommerce'
+     , tech: "REACT | JAVASCRIPT | HTML | CSS | CHAKRA-UI"
     },
     {
       id: 3,
@@ -56,6 +58,7 @@ const projects = () => {
       description: "Boats.com is an online advertising website based in Miami, Florida, United States. It also has operations in Fareham and Padova. The company has websites in nine markets and eight languages, listing over 350,000 boats in approximately 152 countries.",
       link: 'https://stellar-figolla-5fb4b8.netlify.app/',
       repo: 'https://github.com/Summaiya-Begum/boat-clone'
+      , tech: " JAVASCRIPT | HTML | CSS | BOOTSTRAP"
     },
     {
       id: 4,
@@ -64,6 +67,7 @@ const projects = () => {
       description: "Monster is a global online employment solution for people seeking jobs and the employers who need great people. We've been doing this for more than 20 years, and have expanded from our roots as a job board to a global provider of a full array of job seeking, career management, recruitment and talent management products and services.",
       link: 'https://monster-india-clone-seven.vercel.app/',
       repo: 'https://github.com/Summaiya-Begum/monster-india-clone'
+      , tech: " JAVASCRIPT | HTML | CSS | BOOTSTRAP"
     }
 
   ];
@@ -96,7 +100,7 @@ const projects = () => {
         <div
           //  style={{ border: "2px solid red" }} 
           className="grid sm:grid-cols-2 md:grid-cols-2 gap-8 px-12 sm:px-0">
-          {projects.map(({ id, src, title, description, link, repo }) => (
+          {projects.map(({ id, src, title, description, link, repo,tech }) => (
             <div
               style={{ height: "400" }}
               key={id} className="shadow-md shadow-blue-400 rounded-lg">
@@ -116,6 +120,8 @@ const projects = () => {
               <div style={{ marginTop: "40px", textAlign: "center", padding: "1rem" }}>
                 <h1 style={{ fontSize: "20px", fontWeight: 800 }}>{title}</h1>
                 <p className="max-line">{description}</p>
+
+                <p><b>TechStack: </b>  { tech} </p>
               </div>
 
               <div className="flex items-center justify-center" >
