@@ -121,7 +121,7 @@ const projects = () => {
                 <h1 style={{ fontSize: "20px", fontWeight: 800 }}>{title}</h1>
                 <p className="max-line">{description}</p>
 
-                <p><b>TechStack: </b>  { tech} </p>
+                <p><b>TechStack:  { tech} </b> </p>
               </div>
 
               <div className="flex items-center justify-center" >
