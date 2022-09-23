@@ -76,7 +76,7 @@ const projects = () => {
   return (
     <div
       id="bgdivimg"
-      style={{ height: "auto", marginTop: "1rem", boxShadow: "rgba(0, 0, 0, 0.15) 0px 2px 8px", paddingBottom: "1rem" }}
+      style={{ height: "auto", marginTop: "1rem", boxShadow: "rgba(0, 0, 0, 0.15) 0px 2px 8px", paddingBottom: "4rem" }}
       name="projects"
       className="ptop bg-gradient-to-b from-black to-black-800 w-full text-white md:h-screen portfolio"
     >
@@ -103,8 +103,8 @@ const projects = () => {
           className="grid sm:grid-cols-2 md:grid-cols-2 gap-8 px-12 sm:px-0">
           {projects.map(({ id, src, title, description, link, repo, tech }) => (
             <div
-              style={{ height: "400" }}
-              key={id} className="shadow-md shadow-blue-400 rounded-lg">
+              style={{ height: "400",}}
+              key={id} className="shadow-lg shadow-aqua rounded-lg">
 
 
 
