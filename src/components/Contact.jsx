@@ -31,62 +31,58 @@ const Contact = () => {
             className="text-4xl font-bold inline border-b-4 border-white-500">
             Contact
           </p>
-          <p className="py-6">Submit the form below to get in touch with me</p>
+          <p className="py-6 text-aqua">Submit the form below to get in touch with me</p>
         </div>
 
 
 
         <div
-
-          className="grid lg:grid-cols-2 sm:grid-cols-1 md:grid-cols-2 gap-4 px-12 py-5 sm:px-0"
+          
+          className="grid lg:grid-cols-2 sm:grid-cols-1 md:grid-cols-2 gap-10 sm:px-0"
         >
-          <div className="  lg:flex flex-col" >
-            <ul>
+          <div  className="  lg:flex flex-col" >
+            <ul className={
+              "  grid lg:grid-cols-1 sm:grid-cols-1 "}>
 
-              <li
+              <liflex justify-start gap-4
                 className={
-                  "flex justify-between items-center w-50 h-14 px-4"}>
+                  "flex justify-start gap-4 items-center py-5 "}>
                 <a
                   href="https://www.linkedin.com/in/summaiya23/"
-                  className="flex justify-arround gap-8 items-start w-full text-white" target="_blank"> <FaLinkedin size={30} color={"aqua"} /> <b>LinkedIn</b>
+                  className="flex justify-start gap-4 items-start w-auto text-white" target="_blank"> <FaLinkedin size={30} color={"aqua"} /> <b>LinkedIn</b>
                 </a>
-              </li>
+              </liflex>
               <li
                 className={
-                  "flex justify-between items-center w-50 h-14 px-4"}>
-                <a
+                  "flex justify-start gap-4 items-center py-5"}>
+                <a 
                   href="https://github.com/Summaiya-Begum"
-                  className="flex justify-arround gap-8 items-start w-full text-white" target="_blank"> <FaGithub size={30} color={"aqua"} /><b>GitHub</b>
+                  className="flex justify-start gap-4  items-start w-auto text-white" target="_blank"> <FaGithub size={30} color={"aqua"} /><b>GitHub</b>
 
                 </a>
               </li>
-              <li
-                className={
-                  "flex justify-between items-center w-50 h-14 px-4"}>
+              <li className={
+                  "flex justify-start gap-4 items-center py-5"}>
 
                 <a
                   href={resume}
                   download
-
-                  className="flex justify-arround gap-8 items-start w-full text-white">
+                  className="flex justify-start gap-4  items-start w-auto text-white">
                   <BsFillPersonLinesFill size={30} color={"aqua"} /><b>Resume</b>
                 </a>
               </li>
               <li
                 className={
-                  "flex justify-between items-center w-50 h-14 px-4"}>
-                <a
-
-                  className="flex justify-arround gap-8 items-start w-full text-white">
+                  "flex justify-start gap-4 items-center py-5"}>
+                <a  className="flex justify-start gap-4  items-start w-auto text-white">
                   <IoIosCall size={30} color={"aqua"} /> <b>Contact : +91-9508435628</b>
                 </a>
               </li>
               <li
                 className={
-                  "flex justify-between items-center w-50 h-14 px-4"}>
+                  "flex justify-start gap-4 items-center py-5"}>
                 <a
-
-                  className="flex justify-arround gap-8 items-start w-full text-white"> <HiOutlineMail size={30} color={"aqua"} />  <b>Email : gzlfathima786@gmail.com</b>
+                  className="flex justify-start gap-4  items-start w-30 text-white"> <HiOutlineMail size={30} color={"aqua"} />  <b>Email : gzlfathima786@gmail.com</b>
                 </a>
               </li>
 
@@ -94,7 +90,7 @@ const Contact = () => {
             </ul>
           </div>
 
-          <div className=" flex justify-center items-center" >
+          <div className=" flex justify-center items-center " >
             <form
               onSubmit={handleSubmit}
               name="contact"
