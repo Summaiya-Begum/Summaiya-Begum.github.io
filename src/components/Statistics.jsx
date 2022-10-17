@@ -43,7 +43,7 @@ const Statistics = () => {
         >
           <div style={{ height: "200px" }}>
             <p align="center">
-              <a href="https://github.com/Summaiya-Begum/github-readme-stats"><img style={{ height: "200px" }} alt="Summaiya-Begum's Github Stats" src="https://github-readme-stats.vercel.app/api?username=Summaiya-Begum&show_icons=true&count_private=true&theme=react&hide_border=true&bg_color=0D1117" /></a>
+              <a href=""><img style={{ height: "200px" }} alt="Summaiya-Begum's Github Stats" src="https://github-readme-stats.vercel.app/api?username=Summaiya-Begum&show_icons=true&count_private=true&theme=react&hide_border=true&bg_color=0D1117" /></a>
             </p>
           </div>
 
