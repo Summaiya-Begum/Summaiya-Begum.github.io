@@ -29,6 +29,14 @@ import monster4 from "../assets/projects/monster(4).jpeg";
 import monster5 from "../assets/projects/monster(5).jpeg";
 import monster6 from "../assets/projects/monster(6).jpeg";
 
+// t-metric
+import tmetric1 from "../assets/projects/tmetric1.png";
+import tmetric2 from "../assets/projects/tmetric2.png";
+import tmetric3 from "../assets/projects/tmetric3.png";
+import tmetric4 from "../assets/projects/tmetric4.png";
+import tmetric5 from "../assets/projects/tmetric5.png";
+import tmetric6 from "../assets/projects/tmetric6.png";
+
 
 // import { Carousel } from 'react-responsive-carousel';
 
@@ -36,12 +44,12 @@ const projects = () => {
   const projects = [
     {
       id: 1,
-      src: [kfc1, kfc2, kfc3, kfc4],
-      title: "KFC-Clone",
-      description: "KFC (Kentucky Fried Chicken) is an American fast food restaurant chain headquartered in Louisville, Kentucky, that specializes in fried chicken. It is the world's second-largest restaurant chain (as measured by sales) after McDonald",
-      link: 'https://remarkable-fudge-c07118.netlify.app/',
-      repo: 'https://github.com/Summaiya-Begum/KFC-Clone',
-      tech: "JAVASCRIPT | HTML | CSS | BOOTSTRAP"
+      src: [tmetric1, tmetric2, tmetric3, tmetric4,tmetric5,tmetric6],
+      title: "T-Metric-Clone",
+      description: "TMetric is a smart choice for time tracking to see work in progress and keep team, cost and quality under control",
+      link: 'https://tmetric-beta.vercel.app/',
+      repo: 'https://github.com/IamSanjayGupta/dazzling-measure-5625',
+      tech: "REACT | JAVASCRIPT | HTML | CSS | CHAKRA-UI | MONGODB"
     },
     {
       id: 2,
@@ -54,6 +62,16 @@ const projects = () => {
     },
     {
       id: 3,
+      src: [kfc1, kfc2, kfc3, kfc4],
+      title: "KFC-Clone",
+      description: "KFC (Kentucky Fried Chicken) is an American fast food restaurant chain headquartered in Louisville, Kentucky, that specializes in fried chicken. It is the world's second-largest restaurant chain (as measured by sales) after McDonald",
+      link: 'https://remarkable-fudge-c07118.netlify.app/',
+      repo: 'https://github.com/Summaiya-Begum/KFC-Clone',
+      tech: "JAVASCRIPT | HTML | CSS | BOOTSTRAP"
+    },
+    
+    {
+      id: 4,
       src: [boat1, boat2, boat3, boat4, boat5],
       title: "Boat-Clone",
       description: "Boats.com is an online advertising website based in Miami, Florida, United States. It also has operations in Fareham and Padova. The company has websites in nine markets and eight languages, listing over 350,000 boats in approximately 152 countries.",
@@ -62,7 +80,7 @@ const projects = () => {
       , tech: " JAVASCRIPT | HTML | CSS | BOOTSTRAP"
     },
     {
-      id: 4,
+      id: 5,
       src: [monster1, monster2, monster3, monster4, monster5, monster6],
       title: "Monster-India-Clone",
       description: "Monster is a global online employment solution for people seeking jobs and the employers who need great people. We've been doing this for more than 20 years, and have expanded from our roots as a job board to a global provider of a full array of job seeking, career management, recruitment and talent management products and services.",
