@@ -3,7 +3,7 @@ import mypic from "../assets/mypic.png";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 // import { Link } from "react-scroll";
 import "../app.css"
-import resume from "../assets/Summaiya_Begum_Resume.pdf"
+// import resume from "../assets/Summaiya_Begum_Resume.pdf"
 
 
 const Home = () => {
@@ -70,7 +70,7 @@ const Home = () => {
               className="group text-white  w-fit px-6 py-3 my-2 flex items-center rounded-md m-auto  cursor-pointer"
               style={{color:"black",backgroundColor:"aqua",fontWeight:"bold",fontFamily:"sans-serif"}}
             >
-              <a href={'https://drive.google.com/file/d/1LdcyGZdhSytErQtDM2ODtqAYb6Vc9oiY/view?usp=sharing'} download>
+              <a href={'https://drive.google.com/file/d/1LdcyGZdhSytErQtDM2ODtqAYb6Vc9oiY/view?usp=sharing'}target="_blank" download>
                 Resume
               </a>
               <span className="group-hover:rotate-90 duration-300">

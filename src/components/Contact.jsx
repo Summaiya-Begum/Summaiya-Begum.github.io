@@ -3,7 +3,6 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { IoIosCall } from "react-icons/io"
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
-import resume from "./Summaiya_Begum_Resume.pdf"
 
 
 //function for form reset
@@ -65,7 +64,8 @@ const Contact = () => {
                   "flex justify-start gap-4 items-center py-5"}>
 
                 <a
-                  href={resume}
+                  href={"https://drive.google.com/file/d/1LdcyGZdhSytErQtDM2ODtqAYb6Vc9oiY/view?usp=sharing"}
+                  target="_blank"
                   download
                   className="flex justify-start gap-4  items-start w-auto text-white">
                   <BsFillPersonLinesFill size={30} color={"aqua"} /><b>Resume</b>
