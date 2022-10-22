@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.b30ae4c4.css",
-    "main.js": "/static/js/main.475efc94.js",
+    "main.js": "/static/js/main.3c7ac221.js",
     "static/media/tmetric3.png": "/static/media/tmetric3.bf7168d4b23011d10b32.png",
     "static/media/tmetric1.png": "/static/media/tmetric1.7577cdbcb8e43194554f.png",
     "static/media/Summaiya_Begum_Resume.pdf": "/static/media/Summaiya_Begum_Resume.eef2d8ab8ccbddec59b9.pdf",
@@ -43,10 +43,10 @@
     "static/media/postman.webp": "/static/media/postman.7d51d0b105d8ca505985.webp",
     "index.html": "/index.html",
     "main.b30ae4c4.css.map": "/static/css/main.b30ae4c4.css.map",
-    "main.475efc94.js.map": "/static/js/main.475efc94.js.map"
+    "main.3c7ac221.js.map": "/static/js/main.3c7ac221.js.map"
   },
   "entrypoints": [
     "static/css/main.b30ae4c4.css",
-    "static/js/main.475efc94.js"
+    "static/js/main.3c7ac221.js"
   ]
 }
