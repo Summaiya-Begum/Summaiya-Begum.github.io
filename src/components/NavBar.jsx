@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { Link } from "react-scroll";
-
+import resume from "../assets/Summaiya_Begum_Resume.pdf"
 const NavBar = () => {
   const [nav, setNav] = useState(false);
 
@@ -55,6 +55,11 @@ const NavBar = () => {
             </Link>
           </li>
         ))}
+        <li className="nav-links px-4 cursor-pointer capitalize font-medium text-aqua hover:scale-105 hover:text-white duration-200 link-underline">
+          <a href={resume} target="_blank" download>
+            Resume
+          </a>
+        </li>
       </ul>
 
       <div

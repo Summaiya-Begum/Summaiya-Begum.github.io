@@ -11,31 +11,31 @@ const Skills = () => {
   const frontEndSkills = [
     {
       id: 1,
-      heading: (<><DiCss3 size={20} color={"white"} /> CSS3 </>),
+      heading: (<><DiCss3 size={25} color={"#254BDD"} /> CSS3 </>),
     },
     {
       id: 2,
-      heading: (<> <DiHtml5 size={20} color={"white"} /> HTML 5</>),
+      heading: (<> <DiHtml5 size={25} color={"#DF4D26"} /> HTML 5</>),
     },
     {
       id: 3,
-      heading: (<><FaReact sise={20} color={"white"} /> React </>),
+      heading: (<><FaReact sise={35} color={"aqua"}/> React </>),
     },
     {
       id: 4,
-      heading: (<><SiRedux size={20} color={"white"} /> Redux </>),
+      heading: (<><SiRedux size={20} color={"#764ABC"} /> Redux </>),
     },
     {
       id: 5,
-      heading: (<><SiJavascript size={20} color={"white"} /> Javascript </>),
+      heading: (<><SiJavascript size={20} color={"yellow"} /> Javascript </>),
     },
     {
       id: 6,
-      heading: (<><SiChakraui size={20} color={"white"} /> Chakra-UI </>),
+      heading: (<><SiChakraui size={20} color={"#71CAD0"} /> Chakra-UI </>),
     },
     {
       id: 7,
-      heading: (<><SiBootstrap size={20} color={"white"} /> BootStrap </>),
+      heading: (<><SiBootstrap size={25} color={"#8713F2"} /> BootStrap </>),
     },
   ];
 
@@ -43,19 +43,19 @@ const Skills = () => {
 
     {
       id: 1,
-      heading: (<><SiJest size={20} color={"white"} /> JEST </>),
+      heading: (<><SiJest size={20} color={"#C03B13"} /> JEST </>),
     },
     {
       id: 2,
-      heading: (<><VscJson size={20} color={"white"} /> JSON </>),
+      heading: (<><VscJson size={20} color={"#1C59A5"} /> JSON </>),
     },
     {
       id: 3,
-      heading: (<><FaNodeJs size={20} color={"white"} /> NodeJS </>),
+      heading: (<><FaNodeJs size={20} color={"026E00"} /> NodeJS </>),
     },
     {
       id: 4,
-      heading: (<><SiMongodb size={30} color={"white"} /> MongoDB </>),
+      heading: (<><DiMongodb size={25} color={"#00ED64"} />MongoDB </>),
     },
     {
       id: 5,
@@ -64,11 +64,11 @@ const Skills = () => {
     },
     {
       id: 6,
-      heading: (<><DiMongodb size={20} color={"white"} /> Mongosh </>),
+      heading: (<><DiMongodb size={25} color={"green"} /> Mongosh </>),
     },
     {
       id: 7,
-      heading: (<><DiJavascript size={20} color={"white"} /> DOM Manipulation</>),
+      heading: (<><DiJavascript size={25} color={"#F78C00"} /> DOM Manipulation</>),
     },
   ];
   const DsaSkills = [
@@ -113,7 +113,7 @@ const Skills = () => {
       className="bg-gradient-to-b from-black to-black-800 w-full h-auto p-20 text-white md:h-screen portfolio skills text-center lg:text-left ptop"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
-        <div className="pb-8">
+        <div className="pb-8 ">
           <p
             style={{ paddingTop: "40px", color: "white" }}
 
@@ -125,10 +125,11 @@ const Skills = () => {
           </p>
         </div>
         <div
-          // style={{ display: "flex", justifyContent: "flex-start", gap: "300px", }}
+          className="grid sm:grid-cols-1 md:grid-cols-2 gap-8 px-12 lg:grid-cols-2 gap-0 px-0  xl:grid-cols-4 gap-2 px-10 sm:px-0"
+          >
 
-          className="grid sm:grid-cols-1 md:grid-cols-2 gap-8 px-12 lg:grid-cols-2 gap-0 px-0  xl:grid-cols-4 gap-2 px-10 sm:px-0">
-          <div style={{ textAlign: "center" }}>
+          {/* Frontend development */}
+          <div style={{ textAlign: "start", border: "2px solid white", }}>
             <h3
               style={{ lineHeight: "3", color: "white" }}
               className="text-xl font-bold inline border-b-4 border-white-500">
@@ -140,14 +141,16 @@ const Skills = () => {
                 lineHeight: "2",
                 // textDecoration: "underline",
                 textDecorationColor: "#3ed0d8",
+                border: "2px solid aqua",
+                margin: "auto"
               }}>
-                <li style={{ display: 'flex', justifyContent: 'center', alignItems: "center", gap: "10px" }} className="text-aqua">{heading}</li>
+                <li style={{ display: 'flex', justifyContent: 'flex-start', alignItems: "flex-start", gap: "20px",marginTop:"10px" }} className="text-aqua">{heading}</li>
               </div>
             ))}
           </div>
 
           {/* BACKEND*/}
-          <div style={{ textAlign: "center", }}>
+          <div style={{ textAlign: "start", border: "2px solid white", }}>
             <h3
               style={{ lineHeight: "3", color: "white" }}
               className="text-xl font-bold inline border-b-4 border-white-500">
@@ -159,8 +162,9 @@ const Skills = () => {
                 fontWeight: "bold",
                 // textDecoration: "underline",
                 textDecorationColor: "#3ed0d8",
+                border: "2px solid aqua",
               }} key={id}>
-                <li style={{ display: 'flex', justifyContent: 'center', alignItems: "center", gap: "10px" }}
+                <li style={{ display: 'flex', justifyContent: 'flex-start', alignItems: "flex-start", gap: "20px" ,marginTop:"10px"}}
                   className="text-aqua">{heading}</li>
               </div>
             ))}
@@ -168,7 +172,7 @@ const Skills = () => {
 
           {/* DSA */}
 
-          <div style={{ textAlign: "center" }}>
+          <div style={{ textAlign: "start", border: "2px solid white", }}>
             <h3
               style={{ lineHeight: "3", color: "white" }}
               className="text-xl font-bold inline border-b-4 border-white-500">
@@ -179,10 +183,11 @@ const Skills = () => {
                 lineHeight: "2",
                 fontWeight: "bold",
                 // textDecoration: "underline",
+                border: "2px solid aqua",
                 textDecorationColor: "#3ed0d8",
 
               }} key={id}>
-                <li style={{ display: 'flex', justifyContent: 'center', alignItems: "center", gap: "10px" }}
+                <li style={{ display: 'flex', justifyContent: 'flex-start', alignItems: "flex-start", gap: "20px",marginTop:"10px" }}
                   className="text-aqua">{heading}</li>
               </div>
             ))}

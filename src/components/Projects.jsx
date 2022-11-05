@@ -1,6 +1,11 @@
 import React from "react";
 import "../app.css"
 import AwesomeSlider from 'react-awesome-slider';
+// React-Icons
+import { DiCss3, DiHtml5, DiMongodb, DiJavascript } from "react-icons/di";
+import { FaReact, FaNodeJs, FaBimobject } from "react-icons/fa"
+import { VscJson, VscSymbolArray, VscSymbolString } from "react-icons/vsc";
+import { SiRedux, SiJavascript, SiChakraui, SiBootstrap, SiJest, SiMongodb, SiExpress } from "react-icons/si";
 import 'react-awesome-slider/dist/styles.css';
 //gusto
 import gusto1 from "../assets/projects/gusto1.jpeg";
@@ -49,7 +54,7 @@ const projects = () => {
       description: "TMetric is a smart choice for time tracking to see work in progress and keep team, cost and quality under control",
       link: 'https://tmetric-beta.vercel.app/',
       repo: 'https://github.com/IamSanjayGupta/dazzling-measure-5625',
-      tech: "REACT | JAVASCRIPT | HTML | CSS | CHAKRA-UI | MONGODB"
+      tech: [ <DiHtml5 size={25} color={"#DF4D26"} />,<DiCss3 size={25} color={"#254BDD"} />,<SiJavascript size={20} color={"yellow"} />,<FaReact sise={35} color={"aqua"}/>,<SiRedux size={20} color={"#764ABC"} />,<SiChakraui size={20} color={"#71CAD0"} />,<DiMongodb size={25} color={"#00ED64"} />,<SiExpress size={20} color={"white"} />,<FaNodeJs size={20} color={"026E00"} />,<VscJson size={20} color={"#1C59A5"} />]
     },
     {
       id: 2,
@@ -58,7 +63,7 @@ const projects = () => {
       description: "People are at the heart of every successful business. Gusto puts the tools you need to hire, pay, insure, and support your team in one platform.",
       link: 'https://gusto-ecommerce.vercel.app/',
       repo: 'https://github.com/Summaiya-Begum/gusto-clone/tree/main/gusto-ecommerce'
-      , tech: "REACT | JAVASCRIPT | HTML | CSS | CHAKRA-UI"
+      , tech: [<DiHtml5 size={25} color={"#DF4D26"} />,<DiCss3 size={25} color={"#254BDD"} />,<SiJavascript size={20} color={"yellow"} />,<FaReact sise={50} color={"aqua"}/>,<SiChakraui size={20} color={"#71CAD0"} />]
     },
     {
       id: 3,
@@ -67,7 +72,7 @@ const projects = () => {
       description: "KFC (Kentucky Fried Chicken) is an American fast food restaurant chain headquartered in Louisville, Kentucky, that specializes in fried chicken. It is the world's second-largest restaurant chain (as measured by sales) after McDonald",
       link: 'https://remarkable-fudge-c07118.netlify.app/',
       repo: 'https://github.com/Summaiya-Begum/KFC-Clone',
-      tech: "JAVASCRIPT | HTML | CSS | BOOTSTRAP"
+      tech:[<DiHtml5 size={30} color={"#DF4D26"} />,<DiCss3 size={30} color={"#254BDD"} />,<SiBootstrap size={30} color={"#8713F2"} />,<SiJavascript size={25} color={"yellow"} />]
     },
     
     {
@@ -77,7 +82,7 @@ const projects = () => {
       description: "Boats.com is an online advertising website based in Miami, Florida, United States. It also has operations in Fareham and Padova. The company has websites in nine markets and eight languages, listing over 350,000 boats in approximately 152 countries.",
       link: 'https://stellar-figolla-5fb4b8.netlify.app/',
       repo: 'https://github.com/Summaiya-Begum/boat-clone'
-      , tech: " JAVASCRIPT | HTML | CSS | BOOTSTRAP"
+      , tech:  [<DiHtml5 size={30} color={"#DF4D26"} />,<DiCss3 size={30} color={"#254BDD"} />,<SiBootstrap size={30} color={"#8713F2"} />,<SiJavascript size={25} color={"yellow"} />]
     },
     {
       id: 5,
@@ -86,7 +91,7 @@ const projects = () => {
       description: "Monster is a global online employment solution for people seeking jobs and the employers who need great people. We've been doing this for more than 20 years, and have expanded from our roots as a job board to a global provider of a full array of job seeking, career management, recruitment and talent management products and services.",
       link: 'https://monster-india-clone-seven.vercel.app/',
       repo: 'https://github.com/Summaiya-Begum/monster-india-clone'
-      , tech: " JAVASCRIPT | HTML | CSS | BOOTSTRAP"
+      , tech:  [<DiHtml5 size={30} color={"#DF4D26"} />,<DiCss3 size={30} color={"#254BDD"} />,<SiBootstrap size={30} color={"#8713F2"} />,<SiJavascript size={25} color={"yellow"} />]
     }
 
   ];
@@ -121,26 +126,26 @@ const projects = () => {
           className="grid sm:grid-cols-2 md:grid-cols-2 gap-8 px-12 sm:px-0">
           {projects.map(({ id, src, title, description, link, repo, tech }) => (
             <div
-              style={{ height: "400",}}
-              key={id} className="shadow-lg shadow-aqua rounded-lg">
+              style={{ height: "400", border:'2px solid aqua' }}
+              key={id} className="shadow shadow-aqua rounded-lg">
 
 
 
-              <AwesomeSlider style={{ height: "auto", overflow: "hidden" }}>
+              <AwesomeSlider style={{ height: "auto", overflow: "hidden",marginTop:'10px' }}>
                 {
-                  src.map(el => (<div style={{ borderRadius: "10px" }}>
-                    <img style={{ height: "600" }} src={el} className="rounded-md duration-200 hover:scale-105" />
+                  src.map(el => (<div style={{ borderRadius: "10px"}}>
+                    <img style={{ height: "280px"}} src={el} className="rounded-md duration-200 hover:scale-105" />
 
                   </div>))
                 }
 
               </AwesomeSlider>
 
-              <div style={{ marginTop: "40px", textAlign: "center", padding: "1rem" }}>
+              <div style={{ marginTop: "20px", textAlign: "center", padding: "1rem" }}>
                 <h1 style={{ fontSize: "20px", fontWeight: 800, color: "white" }}>{title}</h1>
                 <p className="max-line text-aqua ">{description}</p>
-
-                <p style={{ color: "white" }}><b>TechStack:  {tech} </b> </p>
+                  
+                <div style={{ color: "white",lineHeight:'30px' }}><b>TechStack: </b> <div style={{display:"flex",justifyContent:"center",gap:"20px"}}> {tech} </div></div>
               </div>
 
               <div className="flex items-center justify-center" >
