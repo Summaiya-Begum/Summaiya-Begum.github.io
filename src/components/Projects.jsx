@@ -123,11 +123,11 @@ const projects = () => {
 
         <div
           //  style={{border:'2px solid red'}} 
-          className="grid  sm:grid-cols-1  md:grid-cols-2 gap-6 px-0 sm:px-0"
+          className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-8 px-12 sm:px-0"
           > 
           {projects.map(({ id, src, title, description, link, repo, tech }) => (
             <div
-              style={{  border:'2px solid aqua',maxWidth:'89%'}}
+              style={{  border:'2px solid aqua',maxWidth:'100%'}}
               key={id} className=" shadow-lg shadow-aqua rounded-lg">
 
 
