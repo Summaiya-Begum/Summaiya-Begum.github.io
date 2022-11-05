@@ -1,7 +1,7 @@
 {
-  "name": "one-portfolio",
+  "name": "summaiya-begum",
   "version": "0.1.0",
-  "homepage": "https://Summaiya-Begum.github.io",
+  "homepage": ".",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
@@ -10,7 +10,7 @@
     "react": "^18.1.0",
     "react-awesome-slider": "^4.1.0",
     "react-dom": "^18.1.0",
-    "react-github-calendar": "^3.3.3",
+    "react-github-calendar": "^3.3.4",
     "react-icons": "^4.4.0",
     "react-responsive-carousel": "^3.2.23",
     "react-scripts": "5.0.1",
