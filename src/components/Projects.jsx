@@ -122,17 +122,17 @@ const projects = () => {
 
 
         <div
-           style={{margin:"auto"}} 
-          className="grid  sm:grid-cols-1 md:grid-cols-2 gap-8 px-12 sm:px-0"
-          >
+          //  style={{border:'2px solid red'}} 
+          className="grid  sm:grid-cols-1  md:grid-cols-2 gap-6 px-0 sm:px-0"
+          > 
           {projects.map(({ id, src, title, description, link, repo, tech }) => (
             <div
-              style={{  border:'2px solid aqua',maxWidth:'90%'}}
-              key={id} className="shadow shadow-aqua rounded-lg">
+              style={{  border:'2px solid aqua',maxWidth:'89%'}}
+              key={id} className=" shadow-lg shadow-aqua rounded-lg">
 
 
 
-              <AwesomeSlider style={{ height: "auto",width:'100%', overflow: "hidden",marginTop:'10px' }}>
+              <AwesomeSlider style={{ height: "auto",width:'100%', overflow: "hidden",marginTop:'10px'}}>
                 {
                   src.map(el => (<div style={{ borderRadius: "10px",width:"100%"}}>
                     <img style={{ height: "280px",width:"100%"}} src={el} className="rounded-md duration-200 hover:scale-105" />
