@@ -125,7 +125,7 @@ const Skills = () => {
           </p>
         </div>
         <div
-          className="grid sm:grid-cols-1 md:grid-cols-2 gap-8 px-12 lg:grid-cols-2 gap-0 px-0  xl:grid-cols-4 gap-2 px-10 sm:px-0"
+          className="grid sm:grid-cols-1 md:grid-cols-2 gap-8 px-12 lg:grid-cols-2 gap-0 px-0  xl:grid-cols-3 gap-2 px-10 sm:px-0"
           >
 
           {/* Frontend development */}
