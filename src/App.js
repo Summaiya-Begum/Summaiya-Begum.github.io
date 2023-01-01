@@ -9,7 +9,6 @@ import TechStacks from "./components/TechStacks";
 import Skills from "./components/Skills";
 import Statistics from "./components/Statistics";
 
-
 function App() {
   return (
     <div>

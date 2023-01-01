@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { Link } from "react-scroll";
+
 import resume from "../assets/Summaiya_Begum_Resume.pdf"
 const NavBar = () => {
   const [nav, setNav] = useState(false);
@@ -39,7 +40,7 @@ const NavBar = () => {
   return (
     <div className="flex justify-between items-center w-full h-20 px-4 text-white bg-black fixed nav">
       <div>
-        <Link to="home"><h1 className='myLogo '>Summaiya Begum</h1></Link>
+        <Link to="home"><h1 className='myLogo '>Summaiya</h1></Link>
       </div>
 
       <ul
@@ -55,9 +56,9 @@ const NavBar = () => {
             </Link>
           </li>
         ))}
-        <li className="nav-links px-4 cursor-pointer capitalize font-medium text-aqua hover:scale-105 hover:text-white duration-200 link-underline">
-          <a href={resume} target="_blank" download>
-            Resume
+        <li className="nav-links px-2 cursor-pointer capitalize font-medium text-aqua hover:scale-105 hover:text-white duration-200 link-underline" >
+          <a href={resume} target="_blank" download >
+            Resume 
           </a>
         </li>
       </ul>

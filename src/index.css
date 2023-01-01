@@ -103,7 +103,11 @@ body {
   .small-screen {
     display: block;
   }
-
+  .small-screen >img{
+    border-radius: 50%;
+    margin: auto;
+    width: 100%;
+  }
   .big-screen {
     display: none;
   }
@@ -138,14 +142,14 @@ body {
 
 .myLogo {
   cursor: pointer;
-  font-size: calc(4px + 4vh);
+  font-size: calc(5px + 5vh);
   line-height: calc(5px + 5vh);
   text-shadow: 0 0 5px #3e6bde, 0 0 15px #f9f9f9, 0 0 20px #3e6bde, 0 0 40px #f9f9f9, 0 0 60px #4dc6cd, 0 0 10px #f9f9f9, 0 0 98px #3e6bde;
   color: #3e6bde;
   font-family: "Sacramento", Georgia, 'Times New Roman', Times, serif;
   text-align: center;
-  animation: blink 12s infinite;
-  -webkit-animation: blink 12s infinite;
+  animation: blink 20s infinite;
+  -webkit-animation: blink 20s infinite;
 }
 
 @-webkit-keyframes blink {
@@ -153,7 +157,7 @@ body {
   20%,
   24%,
   55% {
-    color: rgb(49, 71, 234);
+    color: rgb(49, 200, 234);
     text-shadow: none;
   }
 
@@ -189,7 +193,7 @@ body {
   56%,
   100% {
     /* text-shadow: 0 0 5px #f9f9f9, 0 0 15px #00FFFF, 0 0 20px #00FFFF, 0 0 40px #00FFFF, 0 0 60px #3bb6c4, 0 0 10px #00FFFF, 0 0 98px #3ed0d8; */
-    color: #00FFFF;
+    color: #ffffff;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   }
 }

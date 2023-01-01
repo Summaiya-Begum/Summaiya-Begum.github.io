@@ -1,0 +1,19 @@
+.arrow-up {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 20%;
+    margin-left: auto;
+    background:#ffff;
+    position: sticky;
+    bottom: 20px;
+    right: 20px;
+  }
+  .arrow-ist-div :hover{
+    color:#000000;
+    background-color: aqua;
+
+  }

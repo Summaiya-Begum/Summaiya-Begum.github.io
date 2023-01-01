@@ -58,8 +58,8 @@ return (
       <div style={{ background: "black", height: "auto" ,padding:"1rem"}} >
           <GitHubCalendar
             username="summaiya-begum"
-            blockSize={20}
-            blockMargin={7}
+            blockSize={15}
+            blockMargin={5}
             style={{
               margin: "auto",
               alignItems: "center",

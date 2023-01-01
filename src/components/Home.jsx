@@ -17,10 +17,9 @@ const Home = () => {
     >
       <div style={{ marginTop: "60px" }}
         className="max-w-screen-lg mx-auto flex flex-col  justify-center gap-y-5 h-full w-full px-5 md:flex-row">
-        <div style={{ height: 'auto', margin: "auto" }} className="small-screen hidden mx-10 mt-20 " >
+        <div style={{ height: 'auto', margin: "auto" }} className="small-screen hidden mx-10 m " >
           <img
             src={mypic}
-
             alt="profile"
             className="rounded-2xl mx-auto w-3/4 md:w-half "
           />
@@ -45,12 +44,13 @@ const Home = () => {
             style={{ 
               color:"white",
               fontFamily:"sans-serif",
-              fontWeight:"bold"
-              
+              fontWeight:"bold",
+              margin:"auto"
             }}
             // className="text-white sm:text-1.10xl mx-20 py-8 max-w-md "
-            className="text-white  max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full"
-          >
+            className="text-white  max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full sm: mx-auto py-2 max-w-md "
+            
+>
             Self-motivated and a curious learner and
             creative mind having strong in problem-
             solving and proficiency in HTML, CSS,

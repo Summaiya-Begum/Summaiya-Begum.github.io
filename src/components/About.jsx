@@ -22,15 +22,16 @@ const About = () => {
           </p>
         </div>
 
-        <p  style={{fontFamily:"sans-serif"}} className="text-xl mt-5 text-aqua">
+        <p  style={{fontFamily:"cursive"}} className="text-xl mt-5 text-aqua">
           I am a web developer, working in both, frontend and backend programming. Excited for improving my skills and learning new technologies. I'm open to learn and work with any web technology.
         </p>
 
         <br />
 
-        <p style={{fontFamily:"sans-serif"}}  className="text-xl text-aqua">
+        <p style={{fontFamily:"cursive"}}  className="text-xl text-#fff">
           I like to write code from scratch and love the idea of bringing thoughts to life. Connect with me to get your project done. <br /> <br />
-          I value minimalistic designs, thoughtful branding of the content, and customer relatable experience. Let’s discover together how we can make your project convert better!<br /> <br />
+          <p style={{fontFamily:"cursive"}}  className="text-xl text-aqua">
+          I value minimalistic designs, thoughtful branding of the content, and customer relatable experience. Let’s discover together how we can make your project convert better!<br /> <br /></p>
           I enjoy creating or redesigning a distinct identity for a product or service, get more traffic from search engine and social platforms.
         </p>
       </div>
