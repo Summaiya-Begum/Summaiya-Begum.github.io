@@ -34,31 +34,21 @@ const Home = () => {
             className="rounded-full w-auto h-auto ring-7 ring-gray-300 dark:ring-gray-500"
           />
         </div>
-        <div style={{ margin: "auto" }} className="flex flex-col justify-center h-full text-center ">
+        <div style={{ margin: "auto"}} className="flex flex-col justify-center h-full text-center w-full">
           <h2
-
-            className="text-4xl sm:text-7xl text-center m-auto font-bold text-white" id="fullstack">
+            className="text-4xl sm:text-5xl text-start m-auto font-bold text-white p-2" id="fullstack">
             I'm a Full Stack Web Developer
           </h2>
           <p
             style={{ 
               color:"white",
-              fontFamily:"sans-serif",
-              fontWeight:"bold",
-              margin:"auto"
+              fontFamily:"cursive",
+              fontWeight:"500",
             }}
-            // className="text-white sm:text-1.10xl mx-20 py-8 max-w-md "
-            className="text-white  max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full sm: mx-auto py-2 max-w-md "
-            
->
-            Self-motivated and a curious learner and
-            creative mind having strong in problem-
-            solving and proficiency in HTML, CSS,
-            Javascript & ReactJS. Seeking a position in a
-            growth-oriented company where I can utilize
-            my understanding of coding and software
-            development to efficiently fulfill the
-            requirements of clients and customers.
+            className="text-1xl sm:text-1xl text-start m-auto font-bold text-white p-2">
+            Self-motivated and a curious learner and creative mind having strong in problem-solving and proficiency in HTML, CSS,
+            Javascript & ReactJS. Seeking a position in a growth-oriented company where I can utilize my understanding of coding and software
+            development to efficiently fulfill the requirements of clients and customers.
           </p>
 
           <div className="portfolio-btn">
