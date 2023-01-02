@@ -36,7 +36,7 @@ const Home = () => {
         </div>
         <div style={{ margin: "auto"}} className="flex flex-col justify-center h-full text-center w-full">
           <h2
-            className="text-4xl sm:text-5xl text-start m-auto font-bold text-white p-2" id="fullstack">
+            className="text-2xl sm:text-sm text-start m-auto font-bold text-white p-2" id="fullstack">
             I'm a Full Stack Web Developer
           </h2>
           <p
