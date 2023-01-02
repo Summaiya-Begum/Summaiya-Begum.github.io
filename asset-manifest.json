@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.fcc53223.css",
-    "main.js": "./static/js/main.52b1d6e9.js",
+    "main.css": "./static/css/main.f13f9379.css",
+    "main.js": "./static/js/main.7579fc62.js",
     "static/media/tmetric3.png": "./static/media/tmetric3.bf7168d4b23011d10b32.png",
     "static/media/tmetric1.png": "./static/media/tmetric1.7577cdbcb8e43194554f.png",
     "static/media/Summaiya_Begum_Resume.pdf": "./static/media/Summaiya_Begum_Resume.d1ed13c4c222f91d4ec8.pdf",
@@ -42,11 +42,11 @@
     "static/media/javascript.png": "./static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "static/media/postman.webp": "./static/media/postman.7d51d0b105d8ca505985.webp",
     "index.html": "./index.html",
-    "main.fcc53223.css.map": "./static/css/main.fcc53223.css.map",
-    "main.52b1d6e9.js.map": "./static/js/main.52b1d6e9.js.map"
+    "main.f13f9379.css.map": "./static/css/main.f13f9379.css.map",
+    "main.7579fc62.js.map": "./static/js/main.7579fc62.js.map"
   },
   "entrypoints": [
-    "static/css/main.fcc53223.css",
-    "static/js/main.52b1d6e9.js"
+    "static/css/main.f13f9379.css",
+    "static/js/main.7579fc62.js"
   ]
 }
