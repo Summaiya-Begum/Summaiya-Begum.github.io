@@ -42,22 +42,39 @@ import tmetric4 from "../assets/projects/tmetric4.png";
 import tmetric5 from "../assets/projects/tmetric5.png";
 import tmetric6 from "../assets/projects/tmetric6.png";
 
-
+// summaiya-ecommerce
+import ecommerce1 from "../assets/projects/ecommerce1.png";
+import ecommerce2 from "../assets/projects/ecommerce2.png";
+import ecommerce3 from "../assets/projects/ecommerce3.png";
+import ecommerce4 from "../assets/projects/ecommerce4.png";
+import ecommerce5 from "../assets/projects/ecommerce5.png";
+import ecommerce6 from "../assets/projects/ecommerce6.png";
+import ecommerce7 from "../assets/projects/ecommerce7.png";
+import ecommerce8 from "../assets/projects/ecommerce8.png";
 // import { Carousel } from 'react-responsive-carousel';
 
 const projects = () => {
   const projects = [
     {
       id: 1,
+      src: [ecommerce1, ecommerce2, ecommerce3, ecommerce4,ecommerce5,ecommerce6,ecommerce7,ecommerce8],
+      title: "Summaiya-Ecommerce",
+      description: "This is a simple basic ecommerce website and one of my dream project where a user can explore products and can add product to cart and to wishlist. User can also get the total price of the products in his/her cart.",
+      link: 'https://summaiya-ecommerce.netlify.app/',
+      repo: 'https://github.com/Summaiya-Begum/summaiya-ecommerce',
+      tech: [ <DiHtml5 size={25} color={"#DF4D26"} />,<DiCss3 size={25} color={"#254BDD"} />,<SiJavascript size={20} color={"yellow"} />,<FaReact sise={35} color={"aqua"}/>,<SiRedux size={20} color={"#764ABC"} />,<SiChakraui size={20} color={"#71CAD0"} />,<DiMongodb size={25} color={"#00ED64"} />,<SiExpress size={20} color={"white"} />,<FaNodeJs size={20} color={"026E00"} />,<VscJson size={20} color={"#1C59A5"} />]
+    },
+    {
+      id: 2,
       src: [tmetric1, tmetric2, tmetric3, tmetric4,tmetric5,tmetric6],
       title: "T-Metric-Clone",
-      description: "TMetric is a smart choice for time tracking to see work in progress and keep team, cost and quality under control",
+      description: "TMetric is a time tracking app that delivers the best solutions for increased profitability of your business with the most efficient time and resource management.",
       link: 'https://tmetric-beta.vercel.app/',
       repo: 'https://github.com/IamSanjayGupta/dazzling-measure-5625',
       tech: [ <DiHtml5 size={25} color={"#DF4D26"} />,<DiCss3 size={25} color={"#254BDD"} />,<SiJavascript size={20} color={"yellow"} />,<FaReact sise={35} color={"aqua"}/>,<SiRedux size={20} color={"#764ABC"} />,<SiChakraui size={20} color={"#71CAD0"} />,<DiMongodb size={25} color={"#00ED64"} />,<SiExpress size={20} color={"white"} />,<FaNodeJs size={20} color={"026E00"} />,<VscJson size={20} color={"#1C59A5"} />]
     },
     {
-      id: 2,
+      id: 3,
       src: [gusto1, gusto2, gusto3, gusto4, gusto5],
       title: "Gusto-Clone",
       description: "People are at the heart of every successful business. Gusto puts the tools you need to hire, pay, insure, and support your team in one platform.",
@@ -66,7 +83,7 @@ const projects = () => {
       , tech: [<DiHtml5 size={25} color={"#DF4D26"} />,<DiCss3 size={25} color={"#254BDD"} />,<SiJavascript size={20} color={"yellow"} />,<FaReact sise={50} color={"aqua"}/>,<SiChakraui size={20} color={"#71CAD0"} />]
     },
     {
-      id: 3,
+      id: 4,
       src: [kfc1, kfc2, kfc3, kfc4],
       title: "KFC-Clone",
       description: "KFC (Kentucky Fried Chicken) is an American fast food restaurant chain headquartered in Louisville, Kentucky, that specializes in fried chicken. It is the world's second-largest restaurant chain (as measured by sales) after McDonald",
@@ -76,7 +93,7 @@ const projects = () => {
     },
     
     {
-      id: 4,
+      id: 5,
       src: [boat1, boat2, boat3, boat4, boat5],
       title: "Boat-Clone",
       description: "Boats.com is an online advertising website based in Miami, Florida, United States. It also has operations in Fareham and Padova. The company has websites in nine markets and eight languages, listing over 350,000 boats in approximately 152 countries.",
@@ -85,7 +102,7 @@ const projects = () => {
       , tech:  [<DiHtml5 size={30} color={"#DF4D26"} />,<DiCss3 size={30} color={"#254BDD"} />,<SiBootstrap size={30} color={"#8713F2"} />,<SiJavascript size={25} color={"yellow"} />]
     },
     {
-      id: 5,
+      id: 6,
       src: [monster1, monster2, monster3, monster4, monster5, monster6],
       title: "Monster-India-Clone",
       description: "Monster is a global online employment solution for people seeking jobs and the employers who need great people. We've been doing this for more than 20 years, and have expanded from our roots as a job board to a global provider of a full array of job seeking, career management, recruitment and talent management products and services.",
@@ -145,13 +162,9 @@ const projects = () => {
               <div style={{ marginTop: "20px", textAlign: "center", padding: "1rem" }}>
                 <h1 style={{ fontSize: "20px", fontWeight: 800, color: "white" }}>{title}</h1>
                 <p className="max-line text-aqua ">{description}</p>
-                  
-                <div style={{ color: "white",lineHeight:'30px' }}><b>TechStack: </b> <div style={{display:"flex",justifyContent:"center",gap:"20px"}}> {tech} </div></div>
+                <div style={{ color: "white",lineHeight:'30px' }}><b>TechStack </b> <div style={{display:"flex",justifyContent:"center",gap:"20px"}}> {tech} </div></div>
               </div>
-
               <div className="flex items-center justify-center" >
-
-
                 <button
                   style={{ borderRadius: "2rem", fontFamily: "monospace", fontSize: "20px", fontWeight: "bold" }}
                   className="w-1/2 px-6 py-3 m-4 duration-200 text-black bg-white hover:scale-105 hover:text-black hover:bg-aqua" onClick={() => window.open(link, '_blank')}>
