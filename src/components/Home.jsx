@@ -48,7 +48,7 @@ const Home = () => {
             className="text-1xl sm:text-1xl text-start m-auto font-bold text-white p-2">
             Self-motivated and a curious learner and creative mind having strong in problem-solving and proficiency in HTML, CSS,
             Javascript & ReactJS. Seeking a position in a growth-oriented company where I can utilize my understanding of coding and software
-            development to efficiently fulfill the requirements of clients and customers.
+            development.
           </p>
 
           <div className="portfolio-btn">
