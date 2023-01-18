@@ -60,7 +60,7 @@ const projects = () => {
       src: [ecommerce1, ecommerce2, ecommerce3, ecommerce4,ecommerce5,ecommerce6,ecommerce7,ecommerce8],
       title: "Summaiya-Ecommerce",
       description: "This is a simple basic ecommerce website and one of my dream project where a user can explore products and can add product to cart and to wishlist. User can also get the total price of the products in his/her cart.",
-      link: 'https://summaiya-ecommerce.netlify.app/',
+      link: 'https://summaiya-ecommerce.vercel.app/',
       repo: 'https://github.com/Summaiya-Begum/summaiya-ecommerce',
       tech: [ <DiHtml5 size={25} color={"#DF4D26"} />,<DiCss3 size={25} color={"#254BDD"} />,<SiJavascript size={20} color={"yellow"} />,<FaReact sise={35} color={"aqua"}/>,<SiRedux size={20} color={"#764ABC"} />,<SiChakraui size={20} color={"#71CAD0"} />,<DiMongodb size={25} color={"#00ED64"} />,<SiExpress size={20} color={"white"} />,<FaNodeJs size={20} color={"026E00"} />,<VscJson size={20} color={"#1C59A5"} />]
     },
