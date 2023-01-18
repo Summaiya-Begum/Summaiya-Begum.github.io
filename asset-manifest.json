@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "./static/css/main.68169908.css",
-    "main.js": "./static/js/main.b1666389.js",
+    "main.js": "./static/js/main.268ca008.js",
     "static/media/ecommerce2.png": "./static/media/ecommerce2.9c01d517f1a5f77ee7b9.png",
     "static/media/ecommerce1.png": "./static/media/ecommerce1.b8f961c2fec787fb1aa5.png",
     "static/media/ecommerce3.png": "./static/media/ecommerce3.0cacf61f551a49fe6a14.png",
     "static/media/ecommerce6.png": "./static/media/ecommerce6.a4bd666b72c791de942c.png",
     "static/media/tmetric3.png": "./static/media/tmetric3.bf7168d4b23011d10b32.png",
     "static/media/tmetric1.png": "./static/media/tmetric1.7577cdbcb8e43194554f.png",
-    "static/media/Summaiya_Begum_Resume.pdf": "./static/media/Summaiya_Begum_Resume.32c54cb40a63702f6cbd.pdf",
     "static/media/ecommerce4.png": "./static/media/ecommerce4.7dd38f09a24d359a66b1.png",
+    "static/media/Summaiya_Begum_Resume.pdf": "./static/media/Summaiya_Begum_Resume.df6b5bbc594c0e5ffb7a.pdf",
     "static/media/mypic.png": "./static/media/mypic.ef4726a4663bc1e97aaa.png",
     "static/media/tmetric2.png": "./static/media/tmetric2.3c6e9f74c7845cc4d2a4.png",
     "static/media/ecommerce8.png": "./static/media/ecommerce8.b89d19bae09f3e097f6b.png",
@@ -51,10 +51,10 @@
     "static/media/postman.webp": "./static/media/postman.7d51d0b105d8ca505985.webp",
     "index.html": "./index.html",
     "main.68169908.css.map": "./static/css/main.68169908.css.map",
-    "main.b1666389.js.map": "./static/js/main.b1666389.js.map"
+    "main.268ca008.js.map": "./static/js/main.268ca008.js.map"
   },
   "entrypoints": [
     "static/css/main.68169908.css",
-    "static/js/main.b1666389.js"
+    "static/js/main.268ca008.js"
   ]
 }
