@@ -1,19 +1,23 @@
-.arrow-up {
-    width: 40px;
-    height: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    border-radius: 20%;
-    margin-left: auto;
-    background:#ffff;
-    position: sticky;
-    bottom: 20px;
-    right: 20px;
-  }
-  .arrow-ist-div :hover{
-    color:#000000;
-    background-color: aqua;
+.backToTop {
+  bottom: 25px;
+  right: 25px;
+  position: fixed;
+  font-size: 130px;
+  color: #000000;
+  cursor: pointer;
+  border: none;
+  padding: 0.5rem;
+  background: #00ffff;
+  box-shadow: rgba(61, 192, 183, 0.811) 0px 0px 4px 2px, rgba(0, 247, 255, 0.735) 2px 2px 5px 0px
+}
 
-  }
+.backToTop:hover {
+  background: aqua;
+  color: #ffffff;
+  box-shadow: rgba(61, 192, 183, 0.811) 0px 0px 4px 2px, rgba(0, 247, 255, 0.735) 2px 2px 5px 0px
+}
+
+
+
+/* color:#000000; */
+/* background-color: aqua; */

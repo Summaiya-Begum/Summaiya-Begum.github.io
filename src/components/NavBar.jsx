@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { Link } from "react-scroll";
 
-import resume from "../assets/Summaiya_Begum_Resume.pdf"
+// import resume from "../assets/Summaiya_Begum_Resume.pdf"
 const NavBar = () => {
   const [nav, setNav] = useState(false);
 
@@ -57,8 +57,8 @@ const NavBar = () => {
           </li>
         ))}
         <li className="nav-links px-2 cursor-pointer capitalize font-medium text-aqua hover:scale-105 hover:text-white duration-200 link-underline" >
-          <a href={resume} target="_blank" download >
-            Resume 
+          <a href={'https://drive.google.com/file/d/1LdcyGZdhSytErQtDM2ODtqAYb6Vc9oiY/view?usp=sharing'} target="_blank" >
+            Resume
           </a>
         </li>
       </ul>
